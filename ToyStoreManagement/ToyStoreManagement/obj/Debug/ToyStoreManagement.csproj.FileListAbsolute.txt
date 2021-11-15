@@ -1,0 +1,13 @@
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.exe.config
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.exe
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.pdb
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI.dll
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Properties.Resources.resources
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.GenerateResource.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.CoreCompileInputs.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.CopyComplete
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.exe
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.pdb
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.LoginForm.resources
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.MainForm.resources
