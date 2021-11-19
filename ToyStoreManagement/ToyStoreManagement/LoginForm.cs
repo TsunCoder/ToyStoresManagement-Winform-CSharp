@@ -31,5 +31,12 @@ namespace ToyStoreManagement
         {
             txtPass.Text = "";
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            MainForm form = new MainForm();
+            form.ShowDialog();
+            form.Hide();
+        }
     }
 }

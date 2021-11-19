@@ -33,18 +33,18 @@ namespace ToyStoreManagement
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.txtAccount = new Guna.UI.WinForms.GunaTextBox();
-            this.btnLogin = new Guna.UI.WinForms.GunaButton();
-            this.btnCancel = new Guna.UI.WinForms.GunaButton();
-            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.txtPass = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.btnCancel = new Guna.UI.WinForms.GunaButton();
+            this.btnLogin = new Guna.UI.WinForms.GunaButton();
+            this.txtAccount = new Guna.UI.WinForms.GunaTextBox();
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaElipse1
@@ -71,64 +71,39 @@ namespace ToyStoreManagement
             this.panel1.Size = new System.Drawing.Size(424, 744);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // txtPass
             // 
-            this.panel2.Controls.Add(this.gunaPictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(403, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(971, 744);
-            this.panel2.TabIndex = 1;
+            this.txtPass.BackColor = System.Drawing.Color.Transparent;
+            this.txtPass.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
+            this.txtPass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
+            this.txtPass.BorderSize = 1;
+            this.txtPass.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPass.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
+            this.txtPass.FocusedBorderColor = System.Drawing.Color.White;
+            this.txtPass.FocusedForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtPass.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPass.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtPass.Location = new System.Drawing.Point(26, 402);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '\0';
+            this.txtPass.Radius = 6;
+            this.txtPass.SelectedText = "";
+            this.txtPass.Size = new System.Drawing.Size(325, 48);
+            this.txtPass.TabIndex = 7;
+            this.txtPass.Text = "Mật khẩu";
+            this.txtPass.TextOffsetX = 10;
+            this.txtPass.Click += new System.EventHandler(this.txtPass_Click);
             // 
-            // txtAccount
+            // gunaLabel1
             // 
-            this.txtAccount.BackColor = System.Drawing.Color.Transparent;
-            this.txtAccount.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
-            this.txtAccount.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txtAccount.BorderSize = 1;
-            this.txtAccount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtAccount.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
-            this.txtAccount.FocusedBorderColor = System.Drawing.Color.White;
-            this.txtAccount.FocusedForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtAccount.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtAccount.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.txtAccount.Location = new System.Drawing.Point(26, 333);
-            this.txtAccount.Name = "txtAccount";
-            this.txtAccount.PasswordChar = '\0';
-            this.txtAccount.Radius = 6;
-            this.txtAccount.SelectedText = "";
-            this.txtAccount.Size = new System.Drawing.Size(325, 48);
-            this.txtAccount.TabIndex = 1;
-            this.txtAccount.Text = "Tên tài khoản";
-            this.txtAccount.TextOffsetX = 10;
-            this.txtAccount.Click += new System.EventHandler(this.gunaTextBox1_Click);
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.AnimationHoverSpeed = 0.07F;
-            this.btnLogin.AnimationSpeed = 0.03F;
-            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogin.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
-            this.btnLogin.BorderColor = System.Drawing.Color.Black;
-            this.btnLogin.BorderSize = 1;
-            this.btnLogin.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnLogin.FocusedColor = System.Drawing.Color.Empty;
-            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Image = null;
-            this.btnLogin.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnLogin.Location = new System.Drawing.Point(49, 484);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
-            this.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnLogin.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnLogin.OnHoverImage = null;
-            this.btnLogin.OnPressedColor = System.Drawing.Color.Black;
-            this.btnLogin.Radius = 10;
-            this.btnLogin.Size = new System.Drawing.Size(132, 50);
-            this.btnLogin.TabIndex = 3;
-            this.btnLogin.Text = "Đăng nhập";
-            this.btnLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.Font = new System.Drawing.Font("SimSun", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.gunaLabel1.Location = new System.Drawing.Point(69, 31);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(249, 43);
+            this.gunaLabel1.TabIndex = 6;
+            this.gunaLabel1.Text = "Toys Store";
             // 
             // btnCancel
             // 
@@ -158,50 +133,56 @@ namespace ToyStoreManagement
             this.btnCancel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // gunaLabel1
+            // btnLogin
             // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("SimSun", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.gunaLabel1.Location = new System.Drawing.Point(69, 31);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(250, 44);
-            this.gunaLabel1.TabIndex = 6;
-            this.gunaLabel1.Text = "Toys Store";
+            this.btnLogin.AnimationHoverSpeed = 0.07F;
+            this.btnLogin.AnimationSpeed = 0.03F;
+            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
+            this.btnLogin.BorderColor = System.Drawing.Color.Black;
+            this.btnLogin.BorderSize = 1;
+            this.btnLogin.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnLogin.FocusedColor = System.Drawing.Color.Empty;
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Image = null;
+            this.btnLogin.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnLogin.Location = new System.Drawing.Point(49, 484);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
+            this.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnLogin.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnLogin.OnHoverImage = null;
+            this.btnLogin.OnPressedColor = System.Drawing.Color.Black;
+            this.btnLogin.Radius = 10;
+            this.btnLogin.Size = new System.Drawing.Size(132, 50);
+            this.btnLogin.TabIndex = 3;
+            this.btnLogin.Text = "Đăng nhập";
+            this.btnLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // txtPass
+            // txtAccount
             // 
-            this.txtPass.BackColor = System.Drawing.Color.Transparent;
-            this.txtPass.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
-            this.txtPass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txtPass.BorderSize = 1;
-            this.txtPass.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPass.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
-            this.txtPass.FocusedBorderColor = System.Drawing.Color.White;
-            this.txtPass.FocusedForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtPass.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtPass.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.txtPass.Location = new System.Drawing.Point(26, 402);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '\0';
-            this.txtPass.Radius = 6;
-            this.txtPass.SelectedText = "";
-            this.txtPass.Size = new System.Drawing.Size(325, 48);
-            this.txtPass.TabIndex = 7;
-            this.txtPass.Text = "Mật khẩu";
-            this.txtPass.TextOffsetX = 10;
-            this.txtPass.Click += new System.EventHandler(this.txtPass_Click);
-            // 
-            // gunaPictureBox1
-            // 
-            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox1.Image = global::ToyStoreManagement.Properties.Resources.Mesa_de_trabajo_1_copia_4x;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(-171, -47);
-            this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(1293, 832);
-            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaPictureBox1.TabIndex = 0;
-            this.gunaPictureBox1.TabStop = false;
+            this.txtAccount.BackColor = System.Drawing.Color.Transparent;
+            this.txtAccount.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
+            this.txtAccount.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
+            this.txtAccount.BorderSize = 1;
+            this.txtAccount.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtAccount.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
+            this.txtAccount.FocusedBorderColor = System.Drawing.Color.White;
+            this.txtAccount.FocusedForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtAccount.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtAccount.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtAccount.Location = new System.Drawing.Point(26, 333);
+            this.txtAccount.Name = "txtAccount";
+            this.txtAccount.PasswordChar = '\0';
+            this.txtAccount.Radius = 6;
+            this.txtAccount.SelectedText = "";
+            this.txtAccount.Size = new System.Drawing.Size(325, 48);
+            this.txtAccount.TabIndex = 1;
+            this.txtAccount.Text = "Tên tài khoản";
+            this.txtAccount.TextOffsetX = 10;
+            this.txtAccount.Click += new System.EventHandler(this.gunaTextBox1_Click);
             // 
             // gunaPictureBox2
             // 
@@ -214,7 +195,27 @@ namespace ToyStoreManagement
             this.gunaPictureBox2.TabIndex = 0;
             this.gunaPictureBox2.TabStop = false;
             // 
-            // Form1
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.gunaPictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(403, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(971, 744);
+            this.panel2.TabIndex = 1;
+            // 
+            // gunaPictureBox1
+            // 
+            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.Image = global::ToyStoreManagement.Properties.Resources.Mesa_de_trabajo_1_copia_4x;
+            this.gunaPictureBox1.Location = new System.Drawing.Point(-171, -47);
+            this.gunaPictureBox1.Name = "gunaPictureBox1";
+            this.gunaPictureBox1.Size = new System.Drawing.Size(1293, 832);
+            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaPictureBox1.TabIndex = 0;
+            this.gunaPictureBox1.TabStop = false;
+            // 
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -222,14 +223,14 @@ namespace ToyStoreManagement
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
