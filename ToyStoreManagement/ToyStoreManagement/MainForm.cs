@@ -43,5 +43,11 @@ namespace ToyStoreManagement
         {
             txtSearch.Text = "";
         }
+
+        private void btnManager_Click(object sender, EventArgs e)
+        {
+            btnManager.BaseColor = Color.FromArgb(94, 148, 255);
+            btnSell.BaseColor = Color.White;
+        }
     }
 }

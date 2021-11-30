@@ -44,24 +44,26 @@ namespace ToyStoreManagement
             this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
+            this.gunaSeparator3 = new Guna.UI.WinForms.GunaSeparator();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.gunaTextBox2 = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaTextBox2 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaSeparator3 = new Guna.UI.WinForms.GunaSeparator();
+            this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pnlChild = new System.Windows.Forms.Panel();
             this.gunaPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.gunaGradient2Panel1.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.gunaGradient2Panel1.SuspendLayout();
+            this.pnlChild.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaPanel1
@@ -207,6 +209,7 @@ namespace ToyStoreManagement
             // 
             this.btnManager.AnimationHoverSpeed = 0.07F;
             this.btnManager.AnimationSpeed = 0.03F;
+            this.btnManager.BackColor = System.Drawing.Color.Transparent;
             this.btnManager.BaseColor = System.Drawing.Color.White;
             this.btnManager.BorderColor = System.Drawing.Color.Black;
             this.btnManager.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -227,6 +230,7 @@ namespace ToyStoreManagement
             this.btnManager.TabIndex = 2;
             this.btnManager.Text = "Manager";
             this.btnManager.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnManager.Click += new System.EventHandler(this.btnManager_Click);
             // 
             // btnSell
             // 
@@ -322,9 +326,9 @@ namespace ToyStoreManagement
             this.panel1.Controls.Add(this.gunaComboBox1);
             this.panel1.Controls.Add(this.txtSearch);
             this.panel1.Controls.Add(this.gunaPictureBox2);
-            this.panel1.Location = new System.Drawing.Point(275, 0);
+            this.panel1.Location = new System.Drawing.Point(6, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(808, 109);
+            this.panel1.Size = new System.Drawing.Size(749, 106);
             this.panel1.TabIndex = 3;
             // 
             // panel2
@@ -336,63 +340,25 @@ namespace ToyStoreManagement
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.gunaGradient2Panel1);
             this.panel2.Controls.Add(this.gunaSeparator2);
-            this.panel2.Location = new System.Drawing.Point(1089, 0);
+            this.panel2.Location = new System.Drawing.Point(761, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(459, 854);
+            this.panel2.Size = new System.Drawing.Size(506, 851);
             this.panel2.TabIndex = 4;
             // 
-            // panel3
+            // gunaSeparator3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(275, 115);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(808, 739);
-            this.panel3.TabIndex = 5;
-            // 
-            // gunaSeparator2
-            // 
-            this.gunaSeparator2.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator2.Location = new System.Drawing.Point(13, 250);
-            this.gunaSeparator2.Name = "gunaSeparator2";
-            this.gunaSeparator2.Size = new System.Drawing.Size(437, 14);
-            this.gunaSeparator2.TabIndex = 0;
-            // 
-            // gunaGradient2Panel1
-            // 
-            this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaGradient2Panel1.Controls.Add(this.label1);
-            this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.Cyan;
-            this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.DodgerBlue;
-            this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.gunaGradient2Panel1.Location = new System.Drawing.Point(13, 12);
-            this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
-            this.gunaGradient2Panel1.Radius = 10;
-            this.gunaGradient2Panel1.Size = new System.Drawing.Size(436, 60);
-            this.gunaGradient2Panel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(18, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "New Receipt";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Book Antiqua", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 22);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Customer Information";
+            this.gunaSeparator3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaSeparator3.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator3.Location = new System.Drawing.Point(203, 98);
+            this.gunaSeparator3.Name = "gunaSeparator3";
+            this.gunaSeparator3.Size = new System.Drawing.Size(232, 14);
+            this.gunaSeparator3.TabIndex = 4;
             // 
             // panel4
             // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.panel4.Controls.Add(this.gunaTextBox2);
             this.panel4.Controls.Add(this.gunaTextBox1);
@@ -400,49 +366,8 @@ namespace ToyStoreManagement
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(13, 124);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(436, 120);
+            this.panel4.Size = new System.Drawing.Size(425, 120);
             this.panel4.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(17, 23);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 22);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Name";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(17, 74);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 22);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Tell";
-            // 
-            // gunaTextBox1
-            // 
-            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.SystemColors.MenuText;
-            this.gunaTextBox1.BorderSize = 1;
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaTextBox1.Location = new System.Drawing.Point(79, 18);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.Radius = 5;
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(332, 33);
-            this.gunaTextBox1.TabIndex = 2;
             // 
             // gunaTextBox2
             // 
@@ -463,13 +388,112 @@ namespace ToyStoreManagement
             this.gunaTextBox2.Size = new System.Drawing.Size(332, 33);
             this.gunaTextBox2.TabIndex = 3;
             // 
-            // gunaSeparator3
+            // gunaTextBox1
             // 
-            this.gunaSeparator3.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator3.Location = new System.Drawing.Point(203, 98);
-            this.gunaSeparator3.Name = "gunaSeparator3";
-            this.gunaSeparator3.Size = new System.Drawing.Size(244, 14);
-            this.gunaSeparator3.TabIndex = 4;
+            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.BorderColor = System.Drawing.SystemColors.MenuText;
+            this.gunaTextBox1.BorderSize = 1;
+            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaTextBox1.Location = new System.Drawing.Point(79, 18);
+            this.gunaTextBox1.Name = "gunaTextBox1";
+            this.gunaTextBox1.PasswordChar = '\0';
+            this.gunaTextBox1.Radius = 5;
+            this.gunaTextBox1.SelectedText = "";
+            this.gunaTextBox1.Size = new System.Drawing.Size(332, 33);
+            this.gunaTextBox1.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(17, 74);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(42, 22);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Tell";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(17, 23);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 22);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Name";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Book Antiqua", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(10, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 22);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Customer Information";
+            // 
+            // gunaGradient2Panel1
+            // 
+            this.gunaGradient2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradient2Panel1.Controls.Add(this.label1);
+            this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.Cyan;
+            this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.DodgerBlue;
+            this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.gunaGradient2Panel1.Location = new System.Drawing.Point(13, 12);
+            this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
+            this.gunaGradient2Panel1.Radius = 10;
+            this.gunaGradient2Panel1.Size = new System.Drawing.Size(424, 60);
+            this.gunaGradient2Panel1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(18, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "New Receipt";
+            // 
+            // gunaSeparator2
+            // 
+            this.gunaSeparator2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaSeparator2.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator2.Location = new System.Drawing.Point(13, 250);
+            this.gunaSeparator2.Name = "gunaSeparator2";
+            this.gunaSeparator2.Size = new System.Drawing.Size(425, 14);
+            this.gunaSeparator2.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(6, 115);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(749, 736);
+            this.panel3.TabIndex = 5;
+            // 
+            // pnlChild
+            // 
+            this.pnlChild.Controls.Add(this.panel1);
+            this.pnlChild.Controls.Add(this.panel2);
+            this.pnlChild.Controls.Add(this.panel3);
+            this.pnlChild.Location = new System.Drawing.Point(269, 0);
+            this.pnlChild.Name = "pnlChild";
+            this.pnlChild.Size = new System.Drawing.Size(1267, 854);
+            this.pnlChild.TabIndex = 6;
             // 
             // MainForm
             // 
@@ -477,9 +501,7 @@ namespace ToyStoreManagement
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1548, 854);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlChild);
             this.Controls.Add(this.gunaPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
@@ -493,10 +515,11 @@ namespace ToyStoreManagement
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.gunaGradient2Panel1.ResumeLayout(false);
-            this.gunaGradient2Panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.gunaGradient2Panel1.ResumeLayout(false);
+            this.gunaGradient2Panel1.PerformLayout();
+            this.pnlChild.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -529,5 +552,6 @@ namespace ToyStoreManagement
         private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
         private System.Windows.Forms.Label label4;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator3;
+        private System.Windows.Forms.Panel pnlChild;
     }
 }
