@@ -29,7 +29,7 @@ namespace ToyStoreManagement
         /// </summary>
         private void InitializeComponent()
         {
-            this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.pn_Menu = new Guna.UI.WinForms.GunaPanel();
             this.lblNameUser = new System.Windows.Forms.Label();
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.btnCustomer = new Guna.UI.WinForms.GunaButton();
@@ -39,50 +39,28 @@ namespace ToyStoreManagement
             this.btnManager = new Guna.UI.WinForms.GunaButton();
             this.btnSell = new Guna.UI.WinForms.GunaButton();
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
-            this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
-            this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.gunaSeparator3 = new Guna.UI.WinForms.GunaSeparator();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.gunaTextBox2 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pnlChild = new System.Windows.Forms.Panel();
-            this.gunaPanel1.SuspendLayout();
+            this.pnlTong = new System.Windows.Forms.Panel();
+            this.pn_Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.gunaGradient2Panel1.SuspendLayout();
-            this.pnlChild.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gunaPanel1
+            // pn_Menu
             // 
-            this.gunaPanel1.BackColor = System.Drawing.Color.White;
-            this.gunaPanel1.Controls.Add(this.lblNameUser);
-            this.gunaPanel1.Controls.Add(this.gunaPictureBox1);
-            this.gunaPanel1.Controls.Add(this.btnCustomer);
-            this.gunaPanel1.Controls.Add(this.btnStatistic);
-            this.gunaPanel1.Controls.Add(this.btnBills);
-            this.gunaPanel1.Controls.Add(this.btnLogout);
-            this.gunaPanel1.Controls.Add(this.btnManager);
-            this.gunaPanel1.Controls.Add(this.btnSell);
-            this.gunaPanel1.Controls.Add(this.gunaSeparator1);
-            this.gunaPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(269, 854);
-            this.gunaPanel1.TabIndex = 0;
+            this.pn_Menu.BackColor = System.Drawing.Color.White;
+            this.pn_Menu.Controls.Add(this.lblNameUser);
+            this.pn_Menu.Controls.Add(this.gunaPictureBox1);
+            this.pn_Menu.Controls.Add(this.btnCustomer);
+            this.pn_Menu.Controls.Add(this.btnStatistic);
+            this.pn_Menu.Controls.Add(this.btnBills);
+            this.pn_Menu.Controls.Add(this.btnLogout);
+            this.pn_Menu.Controls.Add(this.btnManager);
+            this.pn_Menu.Controls.Add(this.btnSell);
+            this.pn_Menu.Controls.Add(this.gunaSeparator1);
+            this.pn_Menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pn_Menu.Location = new System.Drawing.Point(0, 0);
+            this.pn_Menu.Name = "pn_Menu";
+            this.pn_Menu.Size = new System.Drawing.Size(269, 854);
+            this.pn_Menu.TabIndex = 0;
             // 
             // lblNameUser
             // 
@@ -236,12 +214,12 @@ namespace ToyStoreManagement
             // 
             this.btnSell.AnimationHoverSpeed = 0.07F;
             this.btnSell.AnimationSpeed = 0.03F;
-            this.btnSell.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.btnSell.BaseColor = System.Drawing.Color.White;
             this.btnSell.BorderColor = System.Drawing.Color.Black;
             this.btnSell.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSell.FocusedColor = System.Drawing.Color.Empty;
             this.btnSell.Font = new System.Drawing.Font("Book Antiqua", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSell.ForeColor = System.Drawing.Color.White;
+            this.btnSell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
             this.btnSell.Image = global::ToyStoreManagement.Properties.Resources.add;
             this.btnSell.ImageOffsetX = 5;
             this.btnSell.ImageSize = new System.Drawing.Size(30, 30);
@@ -256,6 +234,7 @@ namespace ToyStoreManagement
             this.btnSell.TabIndex = 1;
             this.btnSell.Text = "Sell";
             this.btnSell.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnSell.Click += new System.EventHandler(this.btnSell_Click);
             // 
             // gunaSeparator1
             // 
@@ -265,235 +244,15 @@ namespace ToyStoreManagement
             this.gunaSeparator1.Size = new System.Drawing.Size(238, 11);
             this.gunaSeparator1.TabIndex = 0;
             // 
-            // gunaPictureBox2
+            // pnlTong
             // 
-            this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox2.Image = global::ToyStoreManagement.Properties.Resources.search;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(35, 31);
-            this.gunaPictureBox2.Name = "gunaPictureBox2";
-            this.gunaPictureBox2.Size = new System.Drawing.Size(48, 44);
-            this.gunaPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaPictureBox2.TabIndex = 2;
-            this.gunaPictureBox2.TabStop = false;
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.BackColor = System.Drawing.Color.Transparent;
-            this.txtSearch.BaseColor = System.Drawing.Color.White;
-            this.txtSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearch.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtSearch.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.txtSearch.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtSearch.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(89, 31);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.PasswordChar = '\0';
-            this.txtSearch.Radius = 10;
-            this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(388, 44);
-            this.txtSearch.TabIndex = 1;
-            this.txtSearch.Text = "Search";
-            this.txtSearch.TextOffsetX = 20;
-            this.txtSearch.Click += new System.EventHandler(this.txtSearch_Click);
-            // 
-            // gunaComboBox1
-            // 
-            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox1.FormattingEnabled = true;
-            this.gunaComboBox1.Items.AddRange(new object[] {
-            "Tên",
-            "Giá",
-            "Số lượng tồn"});
-            this.gunaComboBox1.Location = new System.Drawing.Point(488, 39);
-            this.gunaComboBox1.Name = "gunaComboBox1";
-            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.gunaComboBox1.Radius = 5;
-            this.gunaComboBox1.Size = new System.Drawing.Size(168, 28);
-            this.gunaComboBox1.TabIndex = 3;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.gunaComboBox1);
-            this.panel1.Controls.Add(this.txtSearch);
-            this.panel1.Controls.Add(this.gunaPictureBox2);
-            this.panel1.Location = new System.Drawing.Point(6, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(749, 106);
-            this.panel1.TabIndex = 3;
-            // 
-            // panel2
-            // 
-            this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.gunaSeparator3);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.gunaGradient2Panel1);
-            this.panel2.Controls.Add(this.gunaSeparator2);
-            this.panel2.Location = new System.Drawing.Point(761, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(506, 851);
-            this.panel2.TabIndex = 4;
-            // 
-            // gunaSeparator3
-            // 
-            this.gunaSeparator3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pnlTong.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator3.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator3.Location = new System.Drawing.Point(203, 98);
-            this.gunaSeparator3.Name = "gunaSeparator3";
-            this.gunaSeparator3.Size = new System.Drawing.Size(232, 14);
-            this.gunaSeparator3.TabIndex = 4;
-            // 
-            // panel4
-            // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.panel4.Controls.Add(this.gunaTextBox2);
-            this.panel4.Controls.Add(this.gunaTextBox1);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(13, 124);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(425, 120);
-            this.panel4.TabIndex = 3;
-            // 
-            // gunaTextBox2
-            // 
-            this.gunaTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.BorderColor = System.Drawing.SystemColors.MenuText;
-            this.gunaTextBox2.BorderSize = 1;
-            this.gunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox2.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaTextBox2.Location = new System.Drawing.Point(79, 68);
-            this.gunaTextBox2.Name = "gunaTextBox2";
-            this.gunaTextBox2.PasswordChar = '\0';
-            this.gunaTextBox2.Radius = 5;
-            this.gunaTextBox2.SelectedText = "";
-            this.gunaTextBox2.Size = new System.Drawing.Size(332, 33);
-            this.gunaTextBox2.TabIndex = 3;
-            // 
-            // gunaTextBox1
-            // 
-            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.SystemColors.MenuText;
-            this.gunaTextBox1.BorderSize = 1;
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaTextBox1.Location = new System.Drawing.Point(79, 18);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.Radius = 5;
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(332, 33);
-            this.gunaTextBox1.TabIndex = 2;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(17, 74);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 22);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Tell";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(17, 23);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 22);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Name";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Book Antiqua", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 22);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Customer Information";
-            // 
-            // gunaGradient2Panel1
-            // 
-            this.gunaGradient2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaGradient2Panel1.Controls.Add(this.label1);
-            this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.Cyan;
-            this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.DodgerBlue;
-            this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.gunaGradient2Panel1.Location = new System.Drawing.Point(13, 12);
-            this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
-            this.gunaGradient2Panel1.Radius = 10;
-            this.gunaGradient2Panel1.Size = new System.Drawing.Size(424, 60);
-            this.gunaGradient2Panel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(18, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "New Receipt";
-            // 
-            // gunaSeparator2
-            // 
-            this.gunaSeparator2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator2.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator2.Location = new System.Drawing.Point(13, 250);
-            this.gunaSeparator2.Name = "gunaSeparator2";
-            this.gunaSeparator2.Size = new System.Drawing.Size(425, 14);
-            this.gunaSeparator2.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(6, 115);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(749, 736);
-            this.panel3.TabIndex = 5;
-            // 
-            // pnlChild
-            // 
-            this.pnlChild.Controls.Add(this.panel1);
-            this.pnlChild.Controls.Add(this.panel2);
-            this.pnlChild.Controls.Add(this.panel3);
-            this.pnlChild.Location = new System.Drawing.Point(269, 0);
-            this.pnlChild.Name = "pnlChild";
-            this.pnlChild.Size = new System.Drawing.Size(1267, 854);
-            this.pnlChild.TabIndex = 6;
+            this.pnlTong.BackColor = System.Drawing.Color.White;
+            this.pnlTong.Location = new System.Drawing.Point(275, 0);
+            this.pnlTong.Name = "pnlTong";
+            this.pnlTong.Size = new System.Drawing.Size(1272, 854);
+            this.pnlTong.TabIndex = 1;
             // 
             // MainForm
             // 
@@ -501,32 +260,23 @@ namespace ToyStoreManagement
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1548, 854);
-            this.Controls.Add(this.pnlChild);
-            this.Controls.Add(this.gunaPanel1);
+            this.Controls.Add(this.pnlTong);
+            this.Controls.Add(this.pn_Menu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            this.gunaPanel1.ResumeLayout(false);
-            this.gunaPanel1.PerformLayout();
+            this.pn_Menu.ResumeLayout(false);
+            this.pn_Menu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.gunaGradient2Panel1.ResumeLayout(false);
-            this.gunaGradient2Panel1.PerformLayout();
-            this.pnlChild.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Guna.UI.WinForms.GunaPanel gunaPanel1;
+        private Guna.UI.WinForms.GunaPanel pn_Menu;
         private Guna.UI.WinForms.GunaButton btnSell;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private Guna.UI.WinForms.GunaButton btnManager;
@@ -536,22 +286,6 @@ namespace ToyStoreManagement
         private Guna.UI.WinForms.GunaButton btnBills;
         private System.Windows.Forms.Label lblNameUser;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox1;
-        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox2;
-        private Guna.UI.WinForms.GunaTextBox txtSearch;
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private Guna.UI.WinForms.GunaSeparator gunaSeparator2;
-        private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox2;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
-        private System.Windows.Forms.Label label4;
-        private Guna.UI.WinForms.GunaSeparator gunaSeparator3;
-        private System.Windows.Forms.Panel pnlChild;
+        private System.Windows.Forms.Panel pnlTong;
     }
 }
