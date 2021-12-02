@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Toy.cs" />
+    <Compile Include="ToyDA.cs" />
     <Compile Include="Type.cs" />
     <Compile Include="Ultilities.cs" />
   </ItemGroup>

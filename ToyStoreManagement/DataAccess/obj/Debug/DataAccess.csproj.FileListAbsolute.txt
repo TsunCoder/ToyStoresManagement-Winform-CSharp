@@ -1,0 +1,5 @@
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\DataAccess.dll
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\DataAccess.pdb
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.dll
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.pdb

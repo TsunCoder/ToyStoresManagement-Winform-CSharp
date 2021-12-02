@@ -14,7 +14,7 @@ namespace DataAccess
         public static string ConnectionString = ConfigurationManager.ConnectionStrings[StrName].ConnectionString;
 
         // Các biển của bảng Toy
-        public static string Toy_GetAll = "Toy_GetALl"
+        public static string Toy_GetAll = "Toy_GetALl";
         //
     }
 }
