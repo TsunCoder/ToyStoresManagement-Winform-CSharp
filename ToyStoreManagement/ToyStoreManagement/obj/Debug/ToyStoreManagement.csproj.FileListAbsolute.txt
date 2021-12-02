@@ -12,3 +12,19 @@ D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManageme
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.MainForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.ManagerForm.resources
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.exe.config
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.exe
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.pdb
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI.dll
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.LoginForm.resources
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.MainForm.resources
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.ManagerForm.resources
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Properties.Resources.resources
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.GenerateResource.cache
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.CoreCompileInputs.cache
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.CopyComplete
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.exe
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.pdb
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.SellForm.resources
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
+D:\Study\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache
