@@ -95,7 +95,7 @@ namespace ToyStoreManagement
             this.txtSearch.FocusedBaseColor = System.Drawing.Color.White;
             this.txtSearch.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtSearch.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtSearch.Font = new System.Drawing.Font("Book Antiqua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.Location = new System.Drawing.Point(89, 31);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
@@ -150,9 +150,9 @@ namespace ToyStoreManagement
             this.gunaSeparator3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaSeparator3.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator3.Location = new System.Drawing.Point(203, 98);
+            this.gunaSeparator3.Location = new System.Drawing.Point(239, 98);
             this.gunaSeparator3.Name = "gunaSeparator3";
-            this.gunaSeparator3.Size = new System.Drawing.Size(229, 14);
+            this.gunaSeparator3.Size = new System.Drawing.Size(255, 14);
             this.gunaSeparator3.TabIndex = 4;
             // 
             // panel4
@@ -166,7 +166,7 @@ namespace ToyStoreManagement
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(13, 124);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(422, 120);
+            this.panel4.Size = new System.Drawing.Size(481, 120);
             this.panel4.TabIndex = 3;
             // 
             // gunaTextBox2
@@ -234,10 +234,10 @@ namespace ToyStoreManagement
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Book Antiqua", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(10, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(206, 23);
+            this.label2.Size = new System.Drawing.Size(223, 23);
             this.label2.TabIndex = 2;
             this.label2.Text = "Customer Information";
             // 
@@ -253,17 +253,17 @@ namespace ToyStoreManagement
             this.gunaGradient2Panel1.Location = new System.Drawing.Point(13, 12);
             this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
             this.gunaGradient2Panel1.Radius = 10;
-            this.gunaGradient2Panel1.Size = new System.Drawing.Size(421, 60);
+            this.gunaGradient2Panel1.Size = new System.Drawing.Size(481, 60);
             this.gunaGradient2Panel1.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(18, 9);
+            this.label1.Location = new System.Drawing.Point(136, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 24);
+            this.label1.Size = new System.Drawing.Size(194, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "New Receipt";
             // 
@@ -274,7 +274,7 @@ namespace ToyStoreManagement
             this.gunaSeparator2.LineColor = System.Drawing.Color.Silver;
             this.gunaSeparator2.Location = new System.Drawing.Point(13, 250);
             this.gunaSeparator2.Name = "gunaSeparator2";
-            this.gunaSeparator2.Size = new System.Drawing.Size(422, 14);
+            this.gunaSeparator2.Size = new System.Drawing.Size(481, 14);
             this.gunaSeparator2.TabIndex = 0;
             // 
             // SellForm
