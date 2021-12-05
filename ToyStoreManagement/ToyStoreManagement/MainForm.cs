@@ -101,5 +101,21 @@ namespace ToyStoreManagement
         {
             OpenChildForm(new ManagerForm(), sender);
         }
+
+        private void btnBills_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new BillsForm(), sender);
+
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new CustomerForm(), sender);
+        }
+
+        private void btnStatistic_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new StatisticForm(), sender);
+        }
     }
 }

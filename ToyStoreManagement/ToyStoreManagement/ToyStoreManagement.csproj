@@ -52,6 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BillsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillsForm.Designer.cs">
+      <DependentUpon>BillsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,18 @@
     <Compile Include="SellForm.Designer.cs">
       <DependentUpon>SellForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StatisticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticForm.Designer.cs">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BillsForm.resx">
+      <DependentUpon>BillsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="SellForm.resx">
       <DependentUpon>SellForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticForm.resx">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

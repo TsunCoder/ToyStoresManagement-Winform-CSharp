@@ -31,6 +31,8 @@ namespace ToyStoreManagement
         {
             this.pn_Menu = new Guna.UI.WinForms.GunaPanel();
             this.lblNameUser = new System.Windows.Forms.Label();
+            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
+            this.pnlTong = new System.Windows.Forms.Panel();
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.btnCustomer = new Guna.UI.WinForms.GunaButton();
             this.btnStatistic = new Guna.UI.WinForms.GunaButton();
@@ -38,8 +40,6 @@ namespace ToyStoreManagement
             this.btnLogout = new Guna.UI.WinForms.GunaButton();
             this.btnManager = new Guna.UI.WinForms.GunaButton();
             this.btnSell = new Guna.UI.WinForms.GunaButton();
-            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
-            this.pnlTong = new System.Windows.Forms.Panel();
             this.pn_Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -67,9 +67,27 @@ namespace ToyStoreManagement
             this.lblNameUser.AutoSize = true;
             this.lblNameUser.Location = new System.Drawing.Point(88, 126);
             this.lblNameUser.Name = "lblNameUser";
-            this.lblNameUser.Size = new System.Drawing.Size(57, 16);
+            this.lblNameUser.Size = new System.Drawing.Size(62, 17);
             this.lblNameUser.TabIndex = 8;
             this.lblNameUser.Text = "thienson";
+            // 
+            // gunaSeparator1
+            // 
+            this.gunaSeparator1.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator1.Location = new System.Drawing.Point(12, 164);
+            this.gunaSeparator1.Name = "gunaSeparator1";
+            this.gunaSeparator1.Size = new System.Drawing.Size(238, 11);
+            this.gunaSeparator1.TabIndex = 0;
+            // 
+            // pnlTong
+            // 
+            this.pnlTong.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlTong.BackColor = System.Drawing.Color.White;
+            this.pnlTong.Location = new System.Drawing.Point(275, 0);
+            this.pnlTong.Name = "pnlTong";
+            this.pnlTong.Size = new System.Drawing.Size(1272, 854);
+            this.pnlTong.TabIndex = 1;
             // 
             // gunaPictureBox1
             // 
@@ -106,6 +124,7 @@ namespace ToyStoreManagement
             this.btnCustomer.TabIndex = 6;
             this.btnCustomer.Text = "Customer";
             this.btnCustomer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnStatistic
             // 
@@ -131,6 +150,7 @@ namespace ToyStoreManagement
             this.btnStatistic.TabIndex = 5;
             this.btnStatistic.Text = "Statistic";
             this.btnStatistic.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnStatistic.Click += new System.EventHandler(this.btnStatistic_Click);
             // 
             // btnBills
             // 
@@ -156,6 +176,7 @@ namespace ToyStoreManagement
             this.btnBills.TabIndex = 4;
             this.btnBills.Text = "Bills";
             this.btnBills.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnBills.Click += new System.EventHandler(this.btnBills_Click);
             // 
             // btnLogout
             // 
@@ -235,24 +256,6 @@ namespace ToyStoreManagement
             this.btnSell.Text = "Sell";
             this.btnSell.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnSell.Click += new System.EventHandler(this.btnSell_Click);
-            // 
-            // gunaSeparator1
-            // 
-            this.gunaSeparator1.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator1.Location = new System.Drawing.Point(12, 164);
-            this.gunaSeparator1.Name = "gunaSeparator1";
-            this.gunaSeparator1.Size = new System.Drawing.Size(238, 11);
-            this.gunaSeparator1.TabIndex = 0;
-            // 
-            // pnlTong
-            // 
-            this.pnlTong.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlTong.BackColor = System.Drawing.Color.White;
-            this.pnlTong.Location = new System.Drawing.Point(275, 0);
-            this.pnlTong.Name = "pnlTong";
-            this.pnlTong.Size = new System.Drawing.Size(1272, 854);
-            this.pnlTong.TabIndex = 1;
             // 
             // MainForm
             // 
