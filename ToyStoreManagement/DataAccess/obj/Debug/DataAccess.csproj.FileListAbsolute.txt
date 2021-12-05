@@ -3,3 +3,4 @@ D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\D
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\DataAccess.pdb
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.dll
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.pdb
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache

@@ -1,4 +1,3 @@
-D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\BusinessLogic.dll
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\BusinessLogic.pdb
@@ -7,3 +6,4 @@ D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bi
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.dll
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
