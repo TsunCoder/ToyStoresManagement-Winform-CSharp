@@ -10,11 +10,11 @@ namespace DataAccess
     public class Ultilities
     {
         // Lấy chuỗi kết nối từ App.config
-        private static string StrName = "ConnectionString";
+        private static string StrName = "ConnectionStringName";
         public static string ConnectionString = ConfigurationManager.ConnectionStrings[StrName].ConnectionString;
 
         // Các biển của bảng Toy
-        public static string Toy_GetAll = "Toy_GetALl";
+        public static string Toy_GetAll = "Toy_GetALL";
         //
     }
 }
