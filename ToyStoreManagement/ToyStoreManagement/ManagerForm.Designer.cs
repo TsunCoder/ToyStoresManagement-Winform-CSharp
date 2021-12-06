@@ -34,14 +34,17 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.gunaGroupBox1 = new Guna.UI.WinForms.GunaGroupBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.cbbTypeSapXep = new Guna.UI.WinForms.GunaComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
+            this.cbbType = new Guna.UI.WinForms.GunaComboBox();
             this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.dgvDanhSach = new Guna.UI.WinForms.GunaDataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gunaGroupBox2 = new Guna.UI.WinForms.GunaGroupBox();
+            this.btnSave = new Guna.UI.WinForms.GunaButton();
+            this.btnChooseImg = new Guna.UI.WinForms.GunaButton();
             this.gunaTextBox9 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaTextBox3 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaTextBox8 = new Guna.UI.WinForms.GunaTextBox();
@@ -62,9 +65,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btnChooseImg = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.gunaComboBox2 = new Guna.UI.WinForms.GunaComboBox();
             this.panel1.SuspendLayout();
             this.gunaGroupBox1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -107,12 +107,35 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.gunaComboBox2);
+            this.panel4.Controls.Add(this.cbbTypeSapXep);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Location = new System.Drawing.Point(870, 38);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(376, 45);
             this.panel4.TabIndex = 9;
+            // 
+            // cbbTypeSapXep
+            // 
+            this.cbbTypeSapXep.BackColor = System.Drawing.Color.Transparent;
+            this.cbbTypeSapXep.BaseColor = System.Drawing.Color.White;
+            this.cbbTypeSapXep.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbbTypeSapXep.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbTypeSapXep.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbTypeSapXep.FocusedColor = System.Drawing.Color.Empty;
+            this.cbbTypeSapXep.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbTypeSapXep.ForeColor = System.Drawing.Color.Black;
+            this.cbbTypeSapXep.FormattingEnabled = true;
+            this.cbbTypeSapXep.Items.AddRange(new object[] {
+            "Tên",
+            "Giá",
+            "Số lượng tồn"});
+            this.cbbTypeSapXep.Location = new System.Drawing.Point(197, 8);
+            this.cbbTypeSapXep.Name = "cbbTypeSapXep";
+            this.cbbTypeSapXep.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cbbTypeSapXep.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cbbTypeSapXep.Radius = 5;
+            this.cbbTypeSapXep.Size = new System.Drawing.Size(137, 28);
+            this.cbbTypeSapXep.TabIndex = 4;
             // 
             // label2
             // 
@@ -130,7 +153,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.gunaComboBox1);
+            this.panel3.Controls.Add(this.cbbType);
             this.panel3.Controls.Add(this.txtSearch);
             this.panel3.Controls.Add(this.gunaPictureBox2);
             this.panel3.Location = new System.Drawing.Point(12, 38);
@@ -138,28 +161,28 @@
             this.panel3.Size = new System.Drawing.Size(606, 50);
             this.panel3.TabIndex = 8;
             // 
-            // gunaComboBox1
+            // cbbType
             // 
-            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox1.FormattingEnabled = true;
-            this.gunaComboBox1.Items.AddRange(new object[] {
+            this.cbbType.BackColor = System.Drawing.Color.Transparent;
+            this.cbbType.BaseColor = System.Drawing.Color.White;
+            this.cbbType.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbbType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbType.FocusedColor = System.Drawing.Color.Empty;
+            this.cbbType.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbType.ForeColor = System.Drawing.Color.Black;
+            this.cbbType.FormattingEnabled = true;
+            this.cbbType.Items.AddRange(new object[] {
             "Tên",
             "Giá",
             "Số lượng tồn"});
-            this.gunaComboBox1.Location = new System.Drawing.Point(430, 12);
-            this.gunaComboBox1.Name = "gunaComboBox1";
-            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.gunaComboBox1.Radius = 5;
-            this.gunaComboBox1.Size = new System.Drawing.Size(137, 28);
-            this.gunaComboBox1.TabIndex = 3;
+            this.cbbType.Location = new System.Drawing.Point(430, 12);
+            this.cbbType.Name = "cbbType";
+            this.cbbType.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cbbType.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cbbType.Radius = 5;
+            this.cbbType.Size = new System.Drawing.Size(137, 28);
+            this.cbbType.TabIndex = 3;
             // 
             // txtSearch
             // 
@@ -266,7 +289,7 @@
             this.gunaGroupBox2.BackColor = System.Drawing.Color.Transparent;
             this.gunaGroupBox2.BaseColor = System.Drawing.Color.White;
             this.gunaGroupBox2.BorderColor = System.Drawing.Color.Gainsboro;
-            this.gunaGroupBox2.Controls.Add(this.gunaButton1);
+            this.gunaGroupBox2.Controls.Add(this.btnSave);
             this.gunaGroupBox2.Controls.Add(this.btnChooseImg);
             this.gunaGroupBox2.Controls.Add(this.gunaTextBox9);
             this.gunaGroupBox2.Controls.Add(this.gunaTextBox3);
@@ -297,6 +320,60 @@
             this.gunaGroupBox2.TabIndex = 0;
             this.gunaGroupBox2.Text = "Thông tin đồ chơi";
             this.gunaGroupBox2.TextLocation = new System.Drawing.Point(400, 4);
+            // 
+            // btnSave
+            // 
+            this.btnSave.AnimationHoverSpeed = 0.07F;
+            this.btnSave.AnimationSpeed = 0.03F;
+            this.btnSave.BackColor = System.Drawing.Color.Transparent;
+            this.btnSave.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(195)))));
+            this.btnSave.BorderColor = System.Drawing.Color.Black;
+            this.btnSave.BorderSize = 1;
+            this.btnSave.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnSave.FocusedColor = System.Drawing.Color.Empty;
+            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSave.ForeColor = System.Drawing.Color.White;
+            this.btnSave.Image = null;
+            this.btnSave.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnSave.Location = new System.Drawing.Point(1084, 293);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+            this.btnSave.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnSave.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnSave.OnHoverImage = null;
+            this.btnSave.OnPressedColor = System.Drawing.Color.Black;
+            this.btnSave.Radius = 15;
+            this.btnSave.Size = new System.Drawing.Size(120, 41);
+            this.btnSave.TabIndex = 26;
+            this.btnSave.Text = "Lưu";
+            this.btnSave.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnChooseImg
+            // 
+            this.btnChooseImg.AnimationHoverSpeed = 0.07F;
+            this.btnChooseImg.AnimationSpeed = 0.03F;
+            this.btnChooseImg.BackColor = System.Drawing.Color.Transparent;
+            this.btnChooseImg.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(195)))));
+            this.btnChooseImg.BorderColor = System.Drawing.Color.Black;
+            this.btnChooseImg.BorderSize = 1;
+            this.btnChooseImg.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnChooseImg.FocusedColor = System.Drawing.Color.Empty;
+            this.btnChooseImg.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnChooseImg.ForeColor = System.Drawing.Color.White;
+            this.btnChooseImg.Image = null;
+            this.btnChooseImg.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnChooseImg.Location = new System.Drawing.Point(138, 293);
+            this.btnChooseImg.Name = "btnChooseImg";
+            this.btnChooseImg.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+            this.btnChooseImg.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnChooseImg.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnChooseImg.OnHoverImage = null;
+            this.btnChooseImg.OnPressedColor = System.Drawing.Color.Black;
+            this.btnChooseImg.Radius = 15;
+            this.btnChooseImg.Size = new System.Drawing.Size(120, 41);
+            this.btnChooseImg.TabIndex = 25;
+            this.btnChooseImg.Text = "Chọn ảnh";
+            this.btnChooseImg.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaTextBox9
             // 
@@ -595,83 +672,6 @@
             this.gunaPictureBox1.TabIndex = 0;
             this.gunaPictureBox1.TabStop = false;
             // 
-            // btnChooseImg
-            // 
-            this.btnChooseImg.AnimationHoverSpeed = 0.07F;
-            this.btnChooseImg.AnimationSpeed = 0.03F;
-            this.btnChooseImg.BackColor = System.Drawing.Color.Transparent;
-            this.btnChooseImg.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(195)))));
-            this.btnChooseImg.BorderColor = System.Drawing.Color.Black;
-            this.btnChooseImg.BorderSize = 1;
-            this.btnChooseImg.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnChooseImg.FocusedColor = System.Drawing.Color.Empty;
-            this.btnChooseImg.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnChooseImg.ForeColor = System.Drawing.Color.White;
-            this.btnChooseImg.Image = null;
-            this.btnChooseImg.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnChooseImg.Location = new System.Drawing.Point(138, 293);
-            this.btnChooseImg.Name = "btnChooseImg";
-            this.btnChooseImg.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            this.btnChooseImg.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnChooseImg.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnChooseImg.OnHoverImage = null;
-            this.btnChooseImg.OnPressedColor = System.Drawing.Color.Black;
-            this.btnChooseImg.Radius = 15;
-            this.btnChooseImg.Size = new System.Drawing.Size(120, 41);
-            this.btnChooseImg.TabIndex = 25;
-            this.btnChooseImg.Text = "Chọn ảnh";
-            this.btnChooseImg.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton1
-            // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(195)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.BorderSize = 1;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaButton1.Image = null;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(1084, 293);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Radius = 15;
-            this.gunaButton1.Size = new System.Drawing.Size(120, 41);
-            this.gunaButton1.TabIndex = 26;
-            this.gunaButton1.Text = "Lưu";
-            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaComboBox2
-            // 
-            this.gunaComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gunaComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaComboBox2.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox2.FormattingEnabled = true;
-            this.gunaComboBox2.Items.AddRange(new object[] {
-            "Tên",
-            "Giá",
-            "Số lượng tồn"});
-            this.gunaComboBox2.Location = new System.Drawing.Point(197, 8);
-            this.gunaComboBox2.Name = "gunaComboBox2";
-            this.gunaComboBox2.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaComboBox2.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.gunaComboBox2.Radius = 5;
-            this.gunaComboBox2.Size = new System.Drawing.Size(137, 28);
-            this.gunaComboBox2.TabIndex = 4;
-            // 
             // ManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -705,7 +705,7 @@
         private Guna.UI.WinForms.GunaDataGridView dgvDanhSach;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
+        private Guna.UI.WinForms.GunaComboBox cbbType;
         private Guna.UI.WinForms.GunaTextBox txtSearch;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox2;
         private System.Windows.Forms.Label label2;
@@ -731,7 +731,7 @@
         private Guna.UI.WinForms.GunaTextBox gunaTextBox9;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox3;
         private Guna.UI.WinForms.GunaButton btnChooseImg;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox2;
+        private Guna.UI.WinForms.GunaButton btnSave;
+        private Guna.UI.WinForms.GunaComboBox cbbTypeSapXep;
     }
 }
