@@ -53,9 +53,8 @@ C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\Toy
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.BillsForm.resources
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.CustomerForm.resources
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.StatisticForm.resources
-D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI.dll
-D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csprojAssemblyReference.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.BillsForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.CustomerForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.StatisticForm.resources
-D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI2.dll
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache

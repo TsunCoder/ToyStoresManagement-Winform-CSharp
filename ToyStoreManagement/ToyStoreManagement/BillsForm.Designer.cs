@@ -30,9 +30,9 @@ namespace ToyStoreManagement
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BillsForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.grbox = new Guna.UI.WinForms.GunaGroupBox();
             this.btnSreach = new Guna.UI.WinForms.GunaButton();
@@ -61,7 +61,7 @@ namespace ToyStoreManagement
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1261, 242);
+            this.panel1.Size = new System.Drawing.Size(1261, 155);
             this.panel1.TabIndex = 0;
             // 
             // grbox
@@ -78,14 +78,13 @@ namespace ToyStoreManagement
             this.grbox.Controls.Add(this.label2);
             this.grbox.Controls.Add(this.label1);
             this.grbox.Controls.Add(this.label5);
-            this.grbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grbox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.grbox.ForeColor = System.Drawing.Color.White;
             this.grbox.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
             this.grbox.Location = new System.Drawing.Point(0, 0);
             this.grbox.Name = "grbox";
             this.grbox.Radius = 20;
-            this.grbox.Size = new System.Drawing.Size(1261, 242);
+            this.grbox.Size = new System.Drawing.Size(1261, 153);
             this.grbox.TabIndex = 0;
             this.grbox.Text = "Tìm kiếm";
             this.grbox.TextLocation = new System.Drawing.Point(430, 4);
@@ -214,7 +213,7 @@ namespace ToyStoreManagement
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(578, 101);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 23);
+            this.label3.Size = new System.Drawing.Size(114, 22);
             this.label3.TabIndex = 11;
             this.label3.Text = "Số điện thoại";
             // 
@@ -227,7 +226,7 @@ namespace ToyStoreManagement
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(578, 51);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 23);
+            this.label2.Size = new System.Drawing.Size(137, 22);
             this.label2.TabIndex = 10;
             this.label2.Text = "Tên khách hàng";
             // 
@@ -240,7 +239,7 @@ namespace ToyStoreManagement
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(155, 101);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 23);
+            this.label1.Size = new System.Drawing.Size(86, 22);
             this.label1.TabIndex = 9;
             this.label1.Text = "Đến ngày";
             // 
@@ -253,7 +252,7 @@ namespace ToyStoreManagement
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(155, 51);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 23);
+            this.label5.Size = new System.Drawing.Size(105, 22);
             this.label5.TabIndex = 8;
             this.label5.Text = "Lập từ ngày";
             // 
@@ -262,9 +261,9 @@ namespace ToyStoreManagement
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.gunaGroupBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 248);
+            this.panel2.Location = new System.Drawing.Point(0, 153);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1261, 606);
+            this.panel2.Size = new System.Drawing.Size(1261, 701);
             this.panel2.TabIndex = 1;
             // 
             // gunaGroupBox2
@@ -273,53 +272,52 @@ namespace ToyStoreManagement
             this.gunaGroupBox2.BaseColor = System.Drawing.Color.White;
             this.gunaGroupBox2.BorderColor = System.Drawing.Color.LightGray;
             this.gunaGroupBox2.Controls.Add(this.dgvDSHoaDon);
-            this.gunaGroupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaGroupBox2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.gunaGroupBox2.ForeColor = System.Drawing.Color.White;
             this.gunaGroupBox2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
-            this.gunaGroupBox2.Location = new System.Drawing.Point(0, 0);
+            this.gunaGroupBox2.Location = new System.Drawing.Point(3, 1);
             this.gunaGroupBox2.Name = "gunaGroupBox2";
             this.gunaGroupBox2.Radius = 20;
-            this.gunaGroupBox2.Size = new System.Drawing.Size(1261, 606);
+            this.gunaGroupBox2.Size = new System.Drawing.Size(1261, 620);
             this.gunaGroupBox2.TabIndex = 1;
             this.gunaGroupBox2.Text = "Danh sách hóa đơn";
             this.gunaGroupBox2.TextLocation = new System.Drawing.Point(400, 4);
             // 
             // dgvDSHoaDon
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvDSHoaDon.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvDSHoaDon.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvDSHoaDon.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDSHoaDon.BackgroundColor = System.Drawing.Color.LightGray;
             this.dgvDSHoaDon.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvDSHoaDon.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvDSHoaDon.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDSHoaDon.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDSHoaDon.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvDSHoaDon.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDSHoaDon.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDSHoaDon.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvDSHoaDon.EnableHeadersVisualStyles = false;
             this.dgvDSHoaDon.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvDSHoaDon.Location = new System.Drawing.Point(13, 45);
+            this.dgvDSHoaDon.Location = new System.Drawing.Point(9, 45);
             this.dgvDSHoaDon.Name = "dgvDSHoaDon";
             this.dgvDSHoaDon.RowHeadersVisible = false;
             this.dgvDSHoaDon.RowHeadersWidth = 51;
             this.dgvDSHoaDon.RowTemplate.Height = 24;
             this.dgvDSHoaDon.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDSHoaDon.Size = new System.Drawing.Size(1245, 549);
+            this.dgvDSHoaDon.Size = new System.Drawing.Size(1245, 575);
             this.dgvDSHoaDon.TabIndex = 0;
             this.dgvDSHoaDon.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
             this.dgvDSHoaDon.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -349,8 +347,8 @@ namespace ToyStoreManagement
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1261, 854);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BillsForm";
             this.Text = "BillsForm";
