@@ -53,11 +53,10 @@ C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\Toy
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.BillsForm.resources
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.CustomerForm.resources
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\ToyStoresManagement-Winform-CSharp-main\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.StatisticForm.resources
-D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI.dll
-D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csprojAssemblyReference.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.BillsForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.CustomerForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.StatisticForm.resources
+<<<<<<< HEAD
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI2.dll
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.BillsForm.resources
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.CustomerForm.resources
@@ -90,3 +89,8 @@ C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreMana
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Custom.UserControl1.resources
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
 C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache
+=======
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Custom.ToyDetails.resources
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede

@@ -27,6 +27,7 @@ namespace ToyStoreManagement
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         public void GetDataToFLP()
         {
              toyBL = new ToyBL();
@@ -149,6 +150,29 @@ namespace ToyStoreManagement
         }
 
         
+=======
+
+        public void LoadToys()
+        {
+            List<Toy> toys = new List<Toy>();
+            flpToyList.Controls.Clear();
+
+            ToyBL toyBL = new ToyBL();
+            toys = toyBL.GetAll();
+
+            foreach (var toy in toys)
+            {
+                var item = new Custom.ToyDetails();
+                item.LoadToy(toy.TenDoChoi, toy.GiaBan, toy.HinhAnh, toy);
+                flpToyList.Controls.Add(item);
+            }
+        }
+
+        private void SellForm_Load(object sender, EventArgs e)
+        {
+            LoadToys();
+        }
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
     }
 
 }

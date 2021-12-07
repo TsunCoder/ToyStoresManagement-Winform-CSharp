@@ -10,6 +10,7 @@ namespace BusinessLogic
     public class ToyBL
     {
         ToyDA toyDA = new ToyDA();
+<<<<<<< HEAD
         public List<Toy> GetAll()
         {
             return toyDA.GetAll();
@@ -35,6 +36,12 @@ namespace BusinessLogic
         public int Delete(Toy toy)
         {
             return toyDA.Insert_Update_Delete(toy, 2);
+=======
+
+        public List<Toy> GetAll()
+        {
+            return toyDA.GetAlls();
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
         }
     }
 }

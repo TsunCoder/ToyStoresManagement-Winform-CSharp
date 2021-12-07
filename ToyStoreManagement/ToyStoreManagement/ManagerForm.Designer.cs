@@ -41,14 +41,31 @@
             this.GiaBan = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.GiaNhap = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel4 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.gunaComboBox2 = new Guna.UI.WinForms.GunaComboBox();
+=======
+            this.cbbTypeSapXep = new Guna.UI.WinForms.GunaComboBox();
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
+            this.cbbType = new Guna.UI.WinForms.GunaComboBox();
             this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gunaGroupBox2 = new Guna.UI.WinForms.GunaGroupBox();
+<<<<<<< HEAD
+=======
+            this.btnSave = new Guna.UI.WinForms.GunaButton();
+            this.btnChooseImg = new Guna.UI.WinForms.GunaButton();
+            this.gunaTextBox9 = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBox3 = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBox8 = new Guna.UI.WinForms.GunaTextBox();
+            this.txtToyCategory = new Guna.UI.WinForms.GunaTextBox();
+            this.txtNotes = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBox5 = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBox4 = new Guna.UI.WinForms.GunaTextBox();
+            this.txtToyName = new Guna.UI.WinForms.GunaTextBox();
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             this.txtToyId = new Guna.UI.WinForms.GunaTextBox();
             this.cbbType = new Guna.UI.WinForms.GunaComboBox();
             this.btnSave = new Guna.UI.WinForms.GunaButton();
@@ -189,13 +206,14 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.gunaComboBox2);
+            this.panel4.Controls.Add(this.cbbTypeSapXep);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Location = new System.Drawing.Point(870, 38);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(376, 45);
             this.panel4.TabIndex = 9;
             // 
+<<<<<<< HEAD
             // gunaComboBox2
             // 
             this.gunaComboBox2.BackColor = System.Drawing.Color.Transparent;
@@ -218,6 +236,30 @@
             this.gunaComboBox2.Radius = 5;
             this.gunaComboBox2.Size = new System.Drawing.Size(137, 28);
             this.gunaComboBox2.TabIndex = 4;
+=======
+            // cbbTypeSapXep
+            // 
+            this.cbbTypeSapXep.BackColor = System.Drawing.Color.Transparent;
+            this.cbbTypeSapXep.BaseColor = System.Drawing.Color.White;
+            this.cbbTypeSapXep.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbbTypeSapXep.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbTypeSapXep.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbTypeSapXep.FocusedColor = System.Drawing.Color.Empty;
+            this.cbbTypeSapXep.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbTypeSapXep.ForeColor = System.Drawing.Color.Black;
+            this.cbbTypeSapXep.FormattingEnabled = true;
+            this.cbbTypeSapXep.Items.AddRange(new object[] {
+            "Tên",
+            "Giá",
+            "Số lượng tồn"});
+            this.cbbTypeSapXep.Location = new System.Drawing.Point(197, 8);
+            this.cbbTypeSapXep.Name = "cbbTypeSapXep";
+            this.cbbTypeSapXep.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cbbTypeSapXep.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cbbTypeSapXep.Radius = 5;
+            this.cbbTypeSapXep.Size = new System.Drawing.Size(137, 28);
+            this.cbbTypeSapXep.TabIndex = 4;
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             // 
             // label2
             // 
@@ -228,14 +270,14 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(98, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 23);
+            this.label2.Size = new System.Drawing.Size(82, 22);
             this.label2.TabIndex = 3;
             this.label2.Text = "Sắp Xếp";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.gunaComboBox1);
+            this.panel3.Controls.Add(this.cbbType);
             this.panel3.Controls.Add(this.txtSearch);
             this.panel3.Controls.Add(this.gunaPictureBox2);
             this.panel3.Location = new System.Drawing.Point(12, 38);
@@ -243,28 +285,28 @@
             this.panel3.Size = new System.Drawing.Size(606, 50);
             this.panel3.TabIndex = 8;
             // 
-            // gunaComboBox1
+            // cbbType
             // 
-            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox1.FormattingEnabled = true;
-            this.gunaComboBox1.Items.AddRange(new object[] {
+            this.cbbType.BackColor = System.Drawing.Color.Transparent;
+            this.cbbType.BaseColor = System.Drawing.Color.White;
+            this.cbbType.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbbType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbType.FocusedColor = System.Drawing.Color.Empty;
+            this.cbbType.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbType.ForeColor = System.Drawing.Color.Black;
+            this.cbbType.FormattingEnabled = true;
+            this.cbbType.Items.AddRange(new object[] {
             "Tên",
             "Giá",
             "Số lượng tồn"});
-            this.gunaComboBox1.Location = new System.Drawing.Point(430, 12);
-            this.gunaComboBox1.Name = "gunaComboBox1";
-            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.gunaComboBox1.Radius = 5;
-            this.gunaComboBox1.Size = new System.Drawing.Size(137, 28);
-            this.gunaComboBox1.TabIndex = 3;
+            this.cbbType.Location = new System.Drawing.Point(430, 12);
+            this.cbbType.Name = "cbbType";
+            this.cbbType.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cbbType.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cbbType.Radius = 5;
+            this.cbbType.Size = new System.Drawing.Size(137, 28);
+            this.cbbType.TabIndex = 3;
             // 
             // txtSearch
             // 
@@ -312,8 +354,11 @@
             this.gunaGroupBox2.BackColor = System.Drawing.Color.Transparent;
             this.gunaGroupBox2.BaseColor = System.Drawing.Color.White;
             this.gunaGroupBox2.BorderColor = System.Drawing.Color.Gainsboro;
+<<<<<<< HEAD
             this.gunaGroupBox2.Controls.Add(this.txtToyId);
             this.gunaGroupBox2.Controls.Add(this.cbbType);
+=======
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             this.gunaGroupBox2.Controls.Add(this.btnSave);
             this.gunaGroupBox2.Controls.Add(this.btnChooseImg);
             this.gunaGroupBox2.Controls.Add(this.txtGiaNhap);
@@ -344,6 +389,7 @@
             this.gunaGroupBox2.Text = "Thông tin đồ chơi";
             this.gunaGroupBox2.TextLocation = new System.Drawing.Point(400, 4);
             // 
+<<<<<<< HEAD
             // txtToyId
             // 
             this.txtToyId.BackColor = System.Drawing.Color.Transparent;
@@ -387,6 +433,8 @@
             this.cbbType.Size = new System.Drawing.Size(292, 28);
             this.cbbType.TabIndex = 27;
             // 
+=======
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             // btnSave
             // 
             this.btnSave.AnimationHoverSpeed = 0.07F;
@@ -413,7 +461,10 @@
             this.btnSave.TabIndex = 26;
             this.btnSave.Text = "Lưu";
             this.btnSave.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+<<<<<<< HEAD
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+=======
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             // 
             // btnChooseImg
             // 
@@ -441,6 +492,7 @@
             this.btnChooseImg.TabIndex = 25;
             this.btnChooseImg.Text = "Chọn ảnh";
             this.btnChooseImg.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+<<<<<<< HEAD
             this.btnChooseImg.Click += new System.EventHandler(this.btnChooseImg_Click);
             // 
             // txtGiaNhap
@@ -556,6 +608,141 @@
             this.txtXX.SelectedText = "";
             this.txtXX.Size = new System.Drawing.Size(292, 33);
             this.txtXX.TabIndex = 15;
+=======
+            // 
+            // gunaTextBox9
+            // 
+            this.gunaTextBox9.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox9.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.gunaTextBox9.BorderSize = 1;
+            this.gunaTextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox9.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox9.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox9.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaTextBox9.Location = new System.Drawing.Point(433, 129);
+            this.gunaTextBox9.Name = "gunaTextBox9";
+            this.gunaTextBox9.PasswordChar = '\0';
+            this.gunaTextBox9.Radius = 5;
+            this.gunaTextBox9.SelectedText = "";
+            this.gunaTextBox9.Size = new System.Drawing.Size(310, 33);
+            this.gunaTextBox9.TabIndex = 21;
+            // 
+            // gunaTextBox3
+            // 
+            this.gunaTextBox3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox3.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.gunaTextBox3.BorderSize = 1;
+            this.gunaTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox3.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox3.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox3.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaTextBox3.Location = new System.Drawing.Point(912, 129);
+            this.gunaTextBox3.Name = "gunaTextBox3";
+            this.gunaTextBox3.PasswordChar = '\0';
+            this.gunaTextBox3.Radius = 5;
+            this.gunaTextBox3.SelectedText = "";
+            this.gunaTextBox3.Size = new System.Drawing.Size(292, 33);
+            this.gunaTextBox3.TabIndex = 20;
+            // 
+            // gunaTextBox8
+            // 
+            this.gunaTextBox8.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox8.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.gunaTextBox8.BorderSize = 1;
+            this.gunaTextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox8.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox8.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox8.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaTextBox8.Location = new System.Drawing.Point(912, 86);
+            this.gunaTextBox8.Name = "gunaTextBox8";
+            this.gunaTextBox8.PasswordChar = '\0';
+            this.gunaTextBox8.Radius = 5;
+            this.gunaTextBox8.SelectedText = "";
+            this.gunaTextBox8.Size = new System.Drawing.Size(292, 33);
+            this.gunaTextBox8.TabIndex = 19;
+            // 
+            // txtToyCategory
+            // 
+            this.txtToyCategory.BackColor = System.Drawing.Color.Transparent;
+            this.txtToyCategory.BaseColor = System.Drawing.Color.White;
+            this.txtToyCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.txtToyCategory.BorderSize = 1;
+            this.txtToyCategory.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtToyCategory.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtToyCategory.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.txtToyCategory.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtToyCategory.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtToyCategory.Location = new System.Drawing.Point(912, 43);
+            this.txtToyCategory.Name = "txtToyCategory";
+            this.txtToyCategory.PasswordChar = '\0';
+            this.txtToyCategory.Radius = 5;
+            this.txtToyCategory.SelectedText = "";
+            this.txtToyCategory.Size = new System.Drawing.Size(292, 33);
+            this.txtToyCategory.TabIndex = 18;
+            // 
+            // txtNotes
+            // 
+            this.txtNotes.BackColor = System.Drawing.Color.Transparent;
+            this.txtNotes.BaseColor = System.Drawing.Color.White;
+            this.txtNotes.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.txtNotes.BorderSize = 1;
+            this.txtNotes.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNotes.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtNotes.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.txtNotes.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtNotes.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNotes.Location = new System.Drawing.Point(433, 215);
+            this.txtNotes.Name = "txtNotes";
+            this.txtNotes.PasswordChar = '\0';
+            this.txtNotes.Radius = 5;
+            this.txtNotes.SelectedText = "";
+            this.txtNotes.Size = new System.Drawing.Size(771, 66);
+            this.txtNotes.TabIndex = 17;
+            // 
+            // gunaTextBox5
+            // 
+            this.gunaTextBox5.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox5.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.gunaTextBox5.BorderSize = 1;
+            this.gunaTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox5.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox5.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox5.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaTextBox5.Location = new System.Drawing.Point(433, 172);
+            this.gunaTextBox5.Name = "gunaTextBox5";
+            this.gunaTextBox5.PasswordChar = '\0';
+            this.gunaTextBox5.Radius = 5;
+            this.gunaTextBox5.SelectedText = "";
+            this.gunaTextBox5.Size = new System.Drawing.Size(310, 33);
+            this.gunaTextBox5.TabIndex = 16;
+            // 
+            // gunaTextBox4
+            // 
+            this.gunaTextBox4.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox4.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.gunaTextBox4.BorderSize = 1;
+            this.gunaTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox4.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox4.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox4.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaTextBox4.Location = new System.Drawing.Point(912, 170);
+            this.gunaTextBox4.Name = "gunaTextBox4";
+            this.gunaTextBox4.PasswordChar = '\0';
+            this.gunaTextBox4.Radius = 5;
+            this.gunaTextBox4.SelectedText = "";
+            this.gunaTextBox4.Size = new System.Drawing.Size(292, 33);
+            this.gunaTextBox4.TabIndex = 15;
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             // 
             // txtToyName
             // 
@@ -585,7 +772,11 @@
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(296, 172);
             this.label10.Name = "label10";
+<<<<<<< HEAD
             this.label10.Size = new System.Drawing.Size(120, 23);
+=======
+            this.label10.Size = new System.Drawing.Size(118, 22);
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             this.label10.TabIndex = 12;
             this.label10.Text = "Thương Hiệu";
             // 
@@ -598,7 +789,7 @@
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(792, 47);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(43, 23);
+            this.label9.Size = new System.Drawing.Size(42, 22);
             this.label9.TabIndex = 11;
             this.label9.Text = "Loại";
             // 
@@ -611,7 +802,7 @@
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(792, 172);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 23);
+            this.label8.Size = new System.Drawing.Size(71, 22);
             this.label8.TabIndex = 10;
             this.label8.Text = "Xuất xứ";
             // 
@@ -624,7 +815,11 @@
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(296, 215);
             this.label7.Name = "label7";
+<<<<<<< HEAD
             this.label7.Size = new System.Drawing.Size(70, 23);
+=======
+            this.label7.Size = new System.Drawing.Size(55, 22);
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             this.label7.TabIndex = 9;
             this.label7.Text = "Độ tuổi";
             // 
@@ -637,7 +832,7 @@
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(788, 90);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 23);
+            this.label6.Size = new System.Drawing.Size(113, 22);
             this.label6.TabIndex = 8;
             this.label6.Text = "Số lượng tồn";
             // 
@@ -650,7 +845,7 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(296, 46);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 23);
+            this.label5.Size = new System.Drawing.Size(121, 22);
             this.label5.TabIndex = 7;
             this.label5.Text = "Mã số đồ chơi";
             // 
@@ -663,7 +858,7 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(297, 90);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 23);
+            this.label4.Size = new System.Drawing.Size(104, 22);
             this.label4.TabIndex = 6;
             this.label4.Text = "Tên đồ chơi";
             // 
@@ -676,7 +871,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(299, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 23);
+            this.label3.Size = new System.Drawing.Size(80, 22);
             this.label3.TabIndex = 5;
             this.label3.Text = "Giá nhập";
             // 
@@ -689,12 +884,13 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(792, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 23);
+            this.label1.Size = new System.Drawing.Size(70, 22);
             this.label1.TabIndex = 4;
             this.label1.Text = "Giá bán";
             // 
             // pbImg
             // 
+<<<<<<< HEAD
             this.pbImg.BaseColor = System.Drawing.Color.White;
             this.pbImg.Location = new System.Drawing.Point(10, 40);
             this.pbImg.Name = "pbImg";
@@ -704,6 +900,17 @@
             this.pbImg.TabStop = false;
             // 
             // ManagerFrm
+=======
+            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.gunaPictureBox1.Location = new System.Drawing.Point(10, 40);
+            this.gunaPictureBox1.Name = "gunaPictureBox1";
+            this.gunaPictureBox1.Size = new System.Drawing.Size(260, 237);
+            this.gunaPictureBox1.TabIndex = 0;
+            this.gunaPictureBox1.TabStop = false;
+            // 
+            // ManagerForm
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -735,7 +942,7 @@
         private Guna.UI.WinForms.GunaGroupBox gunaGroupBox1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
+        private Guna.UI.WinForms.GunaComboBox cbbType;
         private Guna.UI.WinForms.GunaTextBox txtSearch;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox2;
         private System.Windows.Forms.Label label2;
@@ -760,6 +967,7 @@
         private Guna.UI.WinForms.GunaTextBox txtGiaBan;
         private Guna.UI.WinForms.GunaButton btnChooseImg;
         private Guna.UI.WinForms.GunaButton btnSave;
+<<<<<<< HEAD
         private Guna.UI.WinForms.GunaComboBox gunaComboBox2;
         private System.Windows.Forms.ListView lvToy;
         private System.Windows.Forms.ColumnHeader ID;
@@ -773,5 +981,8 @@
         private System.Windows.Forms.ColumnHeader GiaNhap;
         private Guna.UI.WinForms.GunaComboBox cbbType;
         private Guna.UI.WinForms.GunaTextBox txtToyId;
+=======
+        private Guna.UI.WinForms.GunaComboBox cbbTypeSapXep;
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
     }
 }

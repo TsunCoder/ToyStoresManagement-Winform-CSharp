@@ -77,11 +77,19 @@
     <Compile Include="CustomerForm.Designer.cs">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Custom\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Custom\UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
+=======
+    <Compile Include="Custom\ToyDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom\ToyDetails.Designer.cs">
+      <DependentUpon>ToyDetails.cs</DependentUpon>
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -101,6 +109,7 @@
     <Compile Include="ManagerForm.Designer.cs">
       <DependentUpon>ManagerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Toy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SellForm.cs">
@@ -121,8 +130,13 @@
     <EmbeddedResource Include="CustomerForm.resx">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Custom\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Custom\ToyDetails.resx">
+      <DependentUpon>ToyDetails.cs</DependentUpon>
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -211,6 +225,9 @@
       <Project>{7bb781b1-8c68-4aa3-855e-85008a6f95f4}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Sieuxe.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
