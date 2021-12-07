@@ -28,15 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.nmrCount = new Guna.UI.WinForms.GunaNumeric();
-            this.lbDate = new Guna.UI.WinForms.GunaLabel();
             this.lbTitle = new Guna.UI.WinForms.GunaLabel();
+            this.nmrCount = new Guna.UI.WinForms.GunaNumeric();
             this.lbPrice = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
             this.pbDelete = new Guna.UI.WinForms.GunaPictureBox();
-            this.gunaLinePanel1.SuspendLayout();
+            this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbDelete)).BeginInit();
+            this.gunaLinePanel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // lbTitle
+            // 
+            this.lbTitle.AutoSize = true;
+            this.lbTitle.Font = new System.Drawing.Font("Segoe UI", 9.2F, System.Drawing.FontStyle.Bold);
+            this.lbTitle.Location = new System.Drawing.Point(62, 25);
+            this.lbTitle.Name = "lbTitle";
+            this.lbTitle.Size = new System.Drawing.Size(89, 21);
+            this.lbTitle.TabIndex = 6;
+            this.lbTitle.Text = "Title order";
             // 
             // nmrCount
             // 
@@ -47,7 +57,7 @@
             this.nmrCount.ButtonForeColor = System.Drawing.Color.White;
             this.nmrCount.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.nmrCount.ForeColor = System.Drawing.Color.Black;
-            this.nmrCount.Location = new System.Drawing.Point(261, 35);
+            this.nmrCount.Location = new System.Drawing.Point(366, 33);
             this.nmrCount.Maximum = ((long)(9999999));
             this.nmrCount.Minimum = ((long)(0));
             this.nmrCount.Name = "nmrCount";
@@ -57,87 +67,76 @@
             this.nmrCount.Text = "1";
             this.nmrCount.Value = ((long)(1));
             // 
-            // lbDate
-            // 
-            this.lbDate.AutoSize = true;
-            this.lbDate.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.lbDate.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lbDate.Location = new System.Drawing.Point(105, 62);
-            this.lbDate.Name = "lbDate";
-            this.lbDate.Size = new System.Drawing.Size(96, 19);
-            this.lbDate.TabIndex = 7;
-            this.lbDate.Text = "@00/00/0000";
-            // 
-            // lbTitle
-            // 
-            this.lbTitle.AutoSize = true;
-            this.lbTitle.Font = new System.Drawing.Font("Segoe UI", 9.2F, System.Drawing.FontStyle.Bold);
-            this.lbTitle.Location = new System.Drawing.Point(105, 36);
-            this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(89, 21);
-            this.lbTitle.TabIndex = 6;
-            this.lbTitle.Text = "Title order";
-            // 
             // lbPrice
             // 
             this.lbPrice.AutoSize = true;
-            this.lbPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lbPrice.Location = new System.Drawing.Point(363, 36);
+            this.lbPrice.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPrice.Location = new System.Drawing.Point(100, 46);
             this.lbPrice.Name = "lbPrice";
-            this.lbPrice.Size = new System.Drawing.Size(52, 20);
+            this.lbPrice.Size = new System.Drawing.Size(65, 23);
             this.lbPrice.TabIndex = 4;
             this.lbPrice.Text = "25.000";
-            // 
-            // gunaLinePanel1
-            // 
-            this.gunaLinePanel1.Controls.Add(this.pbDelete);
-            this.gunaLinePanel1.Controls.Add(this.lbPrice);
-            this.gunaLinePanel1.Controls.Add(this.nmrCount);
-            this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.Gray;
-            this.gunaLinePanel1.LineLeft = 1;
-            this.gunaLinePanel1.LineRight = 1;
-            this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel1.Location = new System.Drawing.Point(1, 1);
-            this.gunaLinePanel1.Name = "gunaLinePanel1";
-            this.gunaLinePanel1.Size = new System.Drawing.Size(449, 104);
-            this.gunaLinePanel1.TabIndex = 9;
             // 
             // pbDelete
             // 
             this.pbDelete.BaseColor = System.Drawing.Color.White;
             this.pbDelete.Image = global::ToyStoreManagement.Properties.Resources.add;
-            this.pbDelete.Location = new System.Drawing.Point(36, 31);
+            this.pbDelete.Location = new System.Drawing.Point(14, 25);
             this.pbDelete.Name = "pbDelete";
             this.pbDelete.Size = new System.Drawing.Size(42, 42);
             this.pbDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbDelete.TabIndex = 8;
             this.pbDelete.TabStop = false;
             // 
+            // gunaLinePanel1
+            // 
+            this.gunaLinePanel1.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel1.Controls.Add(this.label1);
+            this.gunaLinePanel1.Controls.Add(this.nmrCount);
+            this.gunaLinePanel1.Controls.Add(this.lbPrice);
+            this.gunaLinePanel1.Controls.Add(this.pbDelete);
+            this.gunaLinePanel1.Controls.Add(this.lbTitle);
+            this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gunaLinePanel1.LineBottom = 3;
+            this.gunaLinePanel1.LineColor = System.Drawing.Color.DeepSkyBlue;
+            this.gunaLinePanel1.LineLeft = 3;
+            this.gunaLinePanel1.LineRight = 3;
+            this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel1.LineTop = 3;
+            this.gunaLinePanel1.Location = new System.Drawing.Point(0, 0);
+            this.gunaLinePanel1.Name = "gunaLinePanel1";
+            this.gunaLinePanel1.Size = new System.Drawing.Size(485, 99);
+            this.gunaLinePanel1.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(63, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(31, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Giá:";
+            // 
             // OrderToy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.lbDate);
-            this.Controls.Add(this.lbTitle);
             this.Controls.Add(this.gunaLinePanel1);
             this.Name = "OrderToy";
-            this.Size = new System.Drawing.Size(450, 105);
+            this.Size = new System.Drawing.Size(485, 99);
+            ((System.ComponentModel.ISupportInitialize)(this.pbDelete)).EndInit();
             this.gunaLinePanel1.ResumeLayout(false);
             this.gunaLinePanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbDelete)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI.WinForms.GunaNumeric nmrCount;
-        private Guna.UI.WinForms.GunaPictureBox pbDelete;
-        private Guna.UI.WinForms.GunaLabel lbDate;
         private Guna.UI.WinForms.GunaLabel lbTitle;
+        private Guna.UI.WinForms.GunaNumeric nmrCount;
         private Guna.UI.WinForms.GunaLabel lbPrice;
+        private Guna.UI.WinForms.GunaPictureBox pbDelete;
         private Guna.UI.WinForms.GunaLinePanel gunaLinePanel1;
+        private System.Windows.Forms.Label label1;
     }
 }

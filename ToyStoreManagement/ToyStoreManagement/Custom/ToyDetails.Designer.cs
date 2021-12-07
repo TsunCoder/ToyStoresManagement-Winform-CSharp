@@ -37,13 +37,14 @@ namespace ToyStoreManagement.Custom
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImageToy)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbToyName
             // 
             this.lbToyName.AutoSize = true;
             this.lbToyName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbToyName.Location = new System.Drawing.Point(2, 6);
+            this.lbToyName.Location = new System.Drawing.Point(0, 6);
             this.lbToyName.Name = "lbToyName";
             this.lbToyName.Size = new System.Drawing.Size(76, 20);
             this.lbToyName.TabIndex = 0;
@@ -53,7 +54,7 @@ namespace ToyStoreManagement.Custom
             // 
             this.lblPrice.AutoSize = true;
             this.lblPrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrice.Location = new System.Drawing.Point(36, 98);
+            this.lblPrice.Location = new System.Drawing.Point(0, 5);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(43, 20);
             this.lblPrice.TabIndex = 0;
@@ -61,7 +62,7 @@ namespace ToyStoreManagement.Custom
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.lbToyName);
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -95,7 +96,7 @@ namespace ToyStoreManagement.Custom
             this.btnValid.Image = global::ToyStoreManagement.Properties.Resources.add;
             this.btnValid.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnValid.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnValid.Location = new System.Drawing.Point(158, 161);
+            this.btnValid.Location = new System.Drawing.Point(158, 162);
             this.btnValid.Name = "btnValid";
             this.btnValid.OnHoverBaseColor = System.Drawing.Color.MediumTurquoise;
             this.btnValid.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -110,8 +111,9 @@ namespace ToyStoreManagement.Custom
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblPrice);
             this.panel1.Location = new System.Drawing.Point(0, 171);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(158, 33);
@@ -122,7 +124,6 @@ namespace ToyStoreManagement.Custom
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.btnValid);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -132,8 +133,9 @@ namespace ToyStoreManagement.Custom
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImageToy)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

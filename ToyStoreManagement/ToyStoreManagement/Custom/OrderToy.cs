@@ -32,14 +32,12 @@ namespace ToyStoreManagement.Custom
 
         //}
 
-        public void initUI(string title, string date, int price, int quantity, int foodId, int billId, int billDetailId)
+        public void initUI(string title, int price, int quantity, int foodId)
         {
-            this.billDetailsId = billDetailId;
+
             this.toyId = foodId;
-            this.billId = billId;
 
             lbTitle.Text = title;
-            lbDate.Text = date;
             lbPrice.Text = (price * quantity).ToString();
             nmrCount.Text = quantity.ToString();
         }

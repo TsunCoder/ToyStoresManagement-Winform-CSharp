@@ -30,8 +30,8 @@ namespace ToyStoreManagement
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
             this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.flpDsToy = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -60,52 +60,25 @@ namespace ToyStoreManagement
             this.label13 = new System.Windows.Forms.Label();
             this.gunaGradient2Panel2 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.label14 = new System.Windows.Forms.Label();
-            this.gunaSeparator8 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaSeparator3 = new Guna.UI.WinForms.GunaSeparator();
             this.label2 = new System.Windows.Forms.Label();
-            this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
-            this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.gunaGradient2Panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.gunaComboBox1);
             this.panel1.Controls.Add(this.txtSearch);
             this.panel1.Controls.Add(this.gunaPictureBox2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(749, 106);
             this.panel1.TabIndex = 7;
-            // 
-            // gunaComboBox1
-            // 
-            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox1.FormattingEnabled = true;
-            this.gunaComboBox1.Items.AddRange(new object[] {
-            "Tên",
-            "Giá",
-            "Số lượng tồn"});
-            this.gunaComboBox1.Location = new System.Drawing.Point(488, 39);
-            this.gunaComboBox1.Name = "gunaComboBox1";
-            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.gunaComboBox1.Radius = 5;
-            this.gunaComboBox1.Size = new System.Drawing.Size(168, 28);
-            this.gunaComboBox1.TabIndex = 3;
             // 
             // txtSearch
             // 
@@ -128,6 +101,17 @@ namespace ToyStoreManagement
             this.txtSearch.TextOffsetX = 20;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             this.txtSearch.Click += new System.EventHandler(this.txtSearch_Click);
+            // 
+            // gunaPictureBox2
+            // 
+            this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox2.Image = global::ToyStoreManagement.Properties.Resources.search;
+            this.gunaPictureBox2.Location = new System.Drawing.Point(35, 31);
+            this.gunaPictureBox2.Name = "gunaPictureBox2";
+            this.gunaPictureBox2.Size = new System.Drawing.Size(48, 44);
+            this.gunaPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaPictureBox2.TabIndex = 2;
+            this.gunaPictureBox2.TabStop = false;
             // 
             // panel3
             // 
@@ -178,10 +162,8 @@ namespace ToyStoreManagement
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.gunaGradient2Panel2);
-            this.panel2.Controls.Add(this.gunaSeparator8);
             this.panel2.Controls.Add(this.gunaSeparator3);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.gunaSeparator2);
             this.panel2.Location = new System.Drawing.Point(755, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(503, 853);
@@ -403,6 +385,7 @@ namespace ToyStoreManagement
             // 
             // flpToyOder
             // 
+            this.flpToyOder.AutoScroll = true;
             this.flpToyOder.BackColor = System.Drawing.Color.WhiteSmoke;
             this.flpToyOder.Location = new System.Drawing.Point(5, 241);
             this.flpToyOder.Name = "flpToyOder";
@@ -543,16 +526,6 @@ namespace ToyStoreManagement
             this.label14.TabIndex = 0;
             this.label14.Text = "Hóa đơn";
             // 
-            // gunaSeparator8
-            // 
-            this.gunaSeparator8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator8.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator8.Location = new System.Drawing.Point(14, 262);
-            this.gunaSeparator8.Name = "gunaSeparator8";
-            this.gunaSeparator8.Size = new System.Drawing.Size(481, 14);
-            this.gunaSeparator8.TabIndex = 25;
-            // 
             // gunaSeparator3
             // 
             this.gunaSeparator3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -575,27 +548,6 @@ namespace ToyStoreManagement
             this.label2.TabIndex = 2;
             this.label2.Text = "Customer Information";
             // 
-            // gunaSeparator2
-            // 
-            this.gunaSeparator2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator2.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator2.Location = new System.Drawing.Point(13, 250);
-            this.gunaSeparator2.Name = "gunaSeparator2";
-            this.gunaSeparator2.Size = new System.Drawing.Size(481, 14);
-            this.gunaSeparator2.TabIndex = 0;
-            // 
-            // gunaPictureBox2
-            // 
-            this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox2.Image = global::ToyStoreManagement.Properties.Resources.search;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(35, 31);
-            this.gunaPictureBox2.Name = "gunaPictureBox2";
-            this.gunaPictureBox2.Size = new System.Drawing.Size(48, 44);
-            this.gunaPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaPictureBox2.TabIndex = 2;
-            this.gunaPictureBox2.TabStop = false;
-            // 
             // SellForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -609,6 +561,7 @@ namespace ToyStoreManagement
             this.Text = "SellForm";
             this.Load += new System.EventHandler(this.SellForm_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -616,7 +569,6 @@ namespace ToyStoreManagement
             this.panel5.PerformLayout();
             this.gunaGradient2Panel2.ResumeLayout(false);
             this.gunaGradient2Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -624,14 +576,12 @@ namespace ToyStoreManagement
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
         private Guna.UI.WinForms.GunaTextBox txtSearch;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator3;
         private System.Windows.Forms.Label label2;
-        private Guna.UI.WinForms.GunaSeparator gunaSeparator2;
         private System.Windows.Forms.FlowLayoutPanel flpDsToy;
         private Guna.UI.WinForms.GunaButton btnXuatHoaDon;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator6;
@@ -658,6 +608,5 @@ namespace ToyStoreManagement
         private System.Windows.Forms.Label label13;
         private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel2;
         private System.Windows.Forms.Label label14;
-        private Guna.UI.WinForms.GunaSeparator gunaSeparator8;
     }
 }

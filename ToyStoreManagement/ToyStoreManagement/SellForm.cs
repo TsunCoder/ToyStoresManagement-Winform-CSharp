@@ -49,12 +49,11 @@ namespace ToyStoreManagement
         private void SetToy(Toy value)
         {
             var item = new Custom.OrderToy();
-            if (item != null && curBill != null && curBillDetails != null)
-            {
-                InsertBillDetail(curBill, value.Id, item.GetSoLuong());
-                item.initUI(value.TenDoChoi, DateTime.Now.ToShortDateString(), value.GiaBan, 1, value.Id, int.Parse(curBill), int.Parse(curBillDetails));
-                flpToyOder.Controls.Add(item);
-            }
+
+            InsertBillDetail(curBill, value.Id, item.GetSoLuong());
+            item.initUI(value.TenDoChoi, value.GiaBan, 1, value.Id);
+            flpToyOder.Controls.Add(item);
+
         }
         private void LoadToys()
         {
