@@ -7,3 +7,18 @@ D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\ob
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.dll
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.pdb
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\DataAccess.dll.config
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache

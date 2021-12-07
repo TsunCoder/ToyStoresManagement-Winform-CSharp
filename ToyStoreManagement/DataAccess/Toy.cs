@@ -17,7 +17,7 @@ namespace DataAccess
         public int SoLuong { get; set; }
         public int GiaBan { get; set; }
         public int GiaNhap { get; set; }
-        public string HinhAnh { get; set; }
+        public byte[] HinhAnh { get; set; }
 
     }
 }
