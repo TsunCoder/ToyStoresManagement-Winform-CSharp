@@ -40,7 +40,7 @@ namespace ToyStoreManagement
                 {
                     previousBtn.BackColor = Color.FromArgb(0, 117, 214);
                     previousBtn.ForeColor = Color.Gainsboro;
-                    //previousBtn.Font = new System.Drawing.Font("Bernard MT Condensed", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                    //
                 }
 
             }
@@ -99,7 +99,7 @@ namespace ToyStoreManagement
 
         private void btnManager_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ManagerForm(), sender);
+            OpenChildForm(new ManagerFrm(), sender);
         }
 
         private void btnBills_Click(object sender, EventArgs e)

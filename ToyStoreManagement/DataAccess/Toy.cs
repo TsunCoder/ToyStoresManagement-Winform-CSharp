@@ -17,6 +17,9 @@ namespace DataAccess
         public int SoLuong { get; set; }
         public int GiaBan { get; set; }
         public int GiaNhap { get; set; }
+<<<<<<< HEAD
+        public byte[] HinhAnh { get; set; }
+=======
         public string HinhAnh { get; set; }
        
         public Toy()
@@ -37,6 +40,7 @@ namespace DataAccess
             GiaNhap = gianhap;
             HinhAnh = hinhAnh;
         }
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
 
     }
 }

@@ -3,4 +3,20 @@ D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\D
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\DataAccess.pdb
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.dll
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.pdb
+<<<<<<< HEAD
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+=======
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede

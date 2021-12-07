@@ -56,6 +56,41 @@ C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp-main (1)\Toy
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.BillsForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.CustomerForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.StatisticForm.resources
+<<<<<<< HEAD
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI2.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.BillsForm.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.CustomerForm.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.LoginForm.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.MainForm.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Properties.Resources.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.SellForm.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.StatisticForm.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.GenerateResource.cache
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.CoreCompileInputs.cache
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.exe
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.exe.config
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.exe
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\ToyStoreManagement.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\BusinessLogic.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\Guna.UI2.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\BusinessLogic.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.ManagerFrm.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.CopyComplete
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\EntityFramework.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\BusinessLogic.dll.config
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\DataAccess.dll.config
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\EntityFramework.xml
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Custom.UserControl1.resources
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\LTCSDL\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache
+=======
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Custom.ToyDetails.resources
+>>>>>>> 84b3e4a6c807ef13b7a7cdc4f83af91917b03ede
