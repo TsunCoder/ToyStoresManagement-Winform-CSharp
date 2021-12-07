@@ -24,7 +24,15 @@ namespace ToyStoreManagement.Custom
             this.currentToy = toy;
             lbNameToy.Text = name;
             lbPrice.Text = price.ToString();
-            this.BackgroundImage = Image.FromFile(img);
-        }
+
+            OpenFileDialog openFile = new OpenFileDialog();
+            openFile.Filter = "Image Files(*.jpg) | *.jpg;";
+            if(openFile.ShowDialog() == DialogResult.OK)
+            {
+                Image image = Image.FromFile(img);
+                this.BackgroundImage = image;
+            }    
+
+        } 
     }
 }
