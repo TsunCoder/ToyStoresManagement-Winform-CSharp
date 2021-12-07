@@ -34,7 +34,24 @@ namespace ToyStoreManagement
             this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.flpToyList = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnXuatHoaDon = new Guna.UI.WinForms.GunaButton();
+            this.gunaSeparator6 = new Guna.UI.WinForms.GunaSeparator();
+            this.gunaSeparator5 = new Guna.UI.WinForms.GunaSeparator();
+            this.txtThanhTien = new Guna.UI.WinForms.GunaTextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtDiscount = new Guna.UI.WinForms.GunaTextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtTongTien = new Guna.UI.WinForms.GunaTextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dtpNgayLapHD = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.gunaSeparator4 = new Guna.UI.WinForms.GunaSeparator();
+            this.label6 = new System.Windows.Forms.Label();
+            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
+            this.flpToyOder = new System.Windows.Forms.FlowLayoutPanel();
+            this.label5 = new System.Windows.Forms.Label();
             this.gunaSeparator3 = new Guna.UI.WinForms.GunaSeparator();
             this.panel4 = new System.Windows.Forms.Panel();
             this.txtSDT = new Guna.UI.WinForms.GunaTextBox();
@@ -45,23 +62,6 @@ namespace ToyStoreManagement
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
-            this.flpToyList = new System.Windows.Forms.FlowLayoutPanel();
-            this.flpToyOder = new System.Windows.Forms.FlowLayoutPanel();
-            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
-            this.label5 = new System.Windows.Forms.Label();
-            this.gunaSeparator4 = new Guna.UI.WinForms.GunaSeparator();
-            this.label6 = new System.Windows.Forms.Label();
-            this.dtpNgayLapHD = new Guna.UI.WinForms.GunaDateTimePicker();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtTongTien = new Guna.UI.WinForms.GunaTextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtDiscount = new Guna.UI.WinForms.GunaTextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtThanhTien = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaSeparator5 = new Guna.UI.WinForms.GunaSeparator();
-            this.gunaSeparator6 = new Guna.UI.WinForms.GunaSeparator();
-            this.btnXuatHoaDon = new Guna.UI.WinForms.GunaButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
@@ -147,6 +147,13 @@ namespace ToyStoreManagement
             this.panel3.Size = new System.Drawing.Size(739, 745);
             this.panel3.TabIndex = 9;
             // 
+            // flpToyList
+            // 
+            this.flpToyList.Location = new System.Drawing.Point(12, 11);
+            this.flpToyList.Name = "flpToyList";
+            this.flpToyList.Size = new System.Drawing.Size(712, 681);
+            this.flpToyList.TabIndex = 0;
+            // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -179,6 +186,239 @@ namespace ToyStoreManagement
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(503, 853);
             this.panel2.TabIndex = 10;
+            // 
+            // btnXuatHoaDon
+            // 
+            this.btnXuatHoaDon.AnimationHoverSpeed = 0.07F;
+            this.btnXuatHoaDon.AnimationSpeed = 0.03F;
+            this.btnXuatHoaDon.BackColor = System.Drawing.Color.Transparent;
+            this.btnXuatHoaDon.BaseColor = System.Drawing.Color.White;
+            this.btnXuatHoaDon.BorderColor = System.Drawing.Color.Red;
+            this.btnXuatHoaDon.BorderSize = 3;
+            this.btnXuatHoaDon.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnXuatHoaDon.FocusedColor = System.Drawing.Color.Empty;
+            this.btnXuatHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnXuatHoaDon.ForeColor = System.Drawing.Color.Red;
+            this.btnXuatHoaDon.Image = null;
+            this.btnXuatHoaDon.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnXuatHoaDon.Location = new System.Drawing.Point(320, 767);
+            this.btnXuatHoaDon.Name = "btnXuatHoaDon";
+            this.btnXuatHoaDon.OnHoverBaseColor = System.Drawing.Color.Red;
+            this.btnXuatHoaDon.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnXuatHoaDon.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnXuatHoaDon.OnHoverImage = null;
+            this.btnXuatHoaDon.OnPressedColor = System.Drawing.Color.Black;
+            this.btnXuatHoaDon.Radius = 10;
+            this.btnXuatHoaDon.Size = new System.Drawing.Size(159, 50);
+            this.btnXuatHoaDon.TabIndex = 24;
+            this.btnXuatHoaDon.Text = "Xuất hóa đơn";
+            this.btnXuatHoaDon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // gunaSeparator6
+            // 
+            this.gunaSeparator6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaSeparator6.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator6.Location = new System.Drawing.Point(7, 747);
+            this.gunaSeparator6.Name = "gunaSeparator6";
+            this.gunaSeparator6.Size = new System.Drawing.Size(487, 14);
+            this.gunaSeparator6.TabIndex = 23;
+            // 
+            // gunaSeparator5
+            // 
+            this.gunaSeparator5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaSeparator5.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator5.Location = new System.Drawing.Point(7, 652);
+            this.gunaSeparator5.Name = "gunaSeparator5";
+            this.gunaSeparator5.Size = new System.Drawing.Size(487, 14);
+            this.gunaSeparator5.TabIndex = 22;
+            // 
+            // txtThanhTien
+            // 
+            this.txtThanhTien.BackColor = System.Drawing.Color.Transparent;
+            this.txtThanhTien.BaseColor = System.Drawing.Color.White;
+            this.txtThanhTien.BorderColor = System.Drawing.Color.Red;
+            this.txtThanhTien.BorderSize = 1;
+            this.txtThanhTien.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtThanhTien.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtThanhTien.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.txtThanhTien.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtThanhTien.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtThanhTien.Location = new System.Drawing.Point(197, 672);
+            this.txtThanhTien.Name = "txtThanhTien";
+            this.txtThanhTien.PasswordChar = '\0';
+            this.txtThanhTien.Radius = 5;
+            this.txtThanhTien.SelectedText = "";
+            this.txtThanhTien.Size = new System.Drawing.Size(282, 48);
+            this.txtThanhTien.TabIndex = 21;
+            // 
+            // label10
+            // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(10, 686);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(108, 22);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Thành tiền";
+            // 
+            // txtDiscount
+            // 
+            this.txtDiscount.BackColor = System.Drawing.Color.Transparent;
+            this.txtDiscount.BaseColor = System.Drawing.Color.White;
+            this.txtDiscount.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.txtDiscount.BorderSize = 1;
+            this.txtDiscount.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDiscount.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtDiscount.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.txtDiscount.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtDiscount.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiscount.Location = new System.Drawing.Point(197, 612);
+            this.txtDiscount.Name = "txtDiscount";
+            this.txtDiscount.PasswordChar = '\0';
+            this.txtDiscount.Radius = 5;
+            this.txtDiscount.SelectedText = "";
+            this.txtDiscount.Size = new System.Drawing.Size(282, 33);
+            this.txtDiscount.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(12, 619);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 22);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Discount";
+            // 
+            // txtTongTien
+            // 
+            this.txtTongTien.BackColor = System.Drawing.Color.Transparent;
+            this.txtTongTien.BaseColor = System.Drawing.Color.White;
+            this.txtTongTien.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.txtTongTien.BorderSize = 1;
+            this.txtTongTien.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTongTien.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtTongTien.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.txtTongTien.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtTongTien.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTongTien.Location = new System.Drawing.Point(197, 573);
+            this.txtTongTien.Name = "txtTongTien";
+            this.txtTongTien.PasswordChar = '\0';
+            this.txtTongTien.Radius = 5;
+            this.txtTongTien.SelectedText = "";
+            this.txtTongTien.Size = new System.Drawing.Size(282, 33);
+            this.txtTongTien.TabIndex = 17;
+            // 
+            // label8
+            // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(10, 579);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(110, 22);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Tổng số tiền";
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(12, 540);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 22);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Ngày lập";
+            // 
+            // dtpNgayLapHD
+            // 
+            this.dtpNgayLapHD.BackColor = System.Drawing.Color.Transparent;
+            this.dtpNgayLapHD.BaseColor = System.Drawing.Color.White;
+            this.dtpNgayLapHD.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
+            this.dtpNgayLapHD.BorderSize = 1;
+            this.dtpNgayLapHD.CustomFormat = "dd/MM/yyyy";
+            this.dtpNgayLapHD.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.dtpNgayLapHD.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dtpNgayLapHD.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpNgayLapHD.ForeColor = System.Drawing.Color.Black;
+            this.dtpNgayLapHD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpNgayLapHD.Location = new System.Drawing.Point(197, 532);
+            this.dtpNgayLapHD.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpNgayLapHD.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpNgayLapHD.Name = "dtpNgayLapHD";
+            this.dtpNgayLapHD.OnHoverBaseColor = System.Drawing.Color.White;
+            this.dtpNgayLapHD.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dtpNgayLapHD.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dtpNgayLapHD.OnPressedColor = System.Drawing.Color.Black;
+            this.dtpNgayLapHD.Radius = 5;
+            this.dtpNgayLapHD.Size = new System.Drawing.Size(282, 35);
+            this.dtpNgayLapHD.TabIndex = 15;
+            this.dtpNgayLapHD.Text = "05/12/2021";
+            this.dtpNgayLapHD.Value = new System.DateTime(2021, 12, 5, 15, 48, 58, 327);
+            // 
+            // gunaSeparator4
+            // 
+            this.gunaSeparator4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaSeparator4.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator4.Location = new System.Drawing.Point(89, 514);
+            this.gunaSeparator4.Name = "gunaSeparator4";
+            this.gunaSeparator4.Size = new System.Drawing.Size(405, 14);
+            this.gunaSeparator4.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(3, 509);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(74, 22);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Chi tiết";
+            // 
+            // gunaSeparator1
+            // 
+            this.gunaSeparator1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaSeparator1.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator1.Location = new System.Drawing.Point(135, 209);
+            this.gunaSeparator1.Name = "gunaSeparator1";
+            this.gunaSeparator1.Size = new System.Drawing.Size(359, 14);
+            this.gunaSeparator1.TabIndex = 7;
+            // 
+            // flpToyOder
+            // 
+            this.flpToyOder.Location = new System.Drawing.Point(4, 229);
+            this.flpToyOder.Name = "flpToyOder";
+            this.flpToyOder.Size = new System.Drawing.Size(496, 264);
+            this.flpToyOder.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(12, 201);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 22);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Sản phẩm";
             // 
             // gunaSeparator3
             // 
@@ -272,7 +512,7 @@ namespace ToyStoreManagement
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(10, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 23);
+            this.label2.Size = new System.Drawing.Size(208, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Thông tin khách hàng";
             // 
@@ -298,7 +538,7 @@ namespace ToyStoreManagement
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(115, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 29);
+            this.label1.Size = new System.Drawing.Size(108, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hóa đơn";
             // 
@@ -312,247 +552,6 @@ namespace ToyStoreManagement
             this.gunaSeparator2.Size = new System.Drawing.Size(481, 14);
             this.gunaSeparator2.TabIndex = 0;
             // 
-            // flpToyList
-            // 
-            this.flpToyList.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpToyList.Location = new System.Drawing.Point(0, 0);
-            this.flpToyList.Name = "flpToyList";
-            this.flpToyList.Size = new System.Drawing.Size(739, 745);
-            this.flpToyList.TabIndex = 0;
-            // 
-            // flpToyOder
-            // 
-            this.flpToyOder.Location = new System.Drawing.Point(4, 229);
-            this.flpToyOder.Name = "flpToyOder";
-            this.flpToyOder.Size = new System.Drawing.Size(496, 264);
-            this.flpToyOder.TabIndex = 5;
-            // 
-            // gunaSeparator1
-            // 
-            this.gunaSeparator1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator1.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator1.Location = new System.Drawing.Point(228, 209);
-            this.gunaSeparator1.Name = "gunaSeparator1";
-            this.gunaSeparator1.Size = new System.Drawing.Size(266, 14);
-            this.gunaSeparator1.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(0, 200);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(231, 23);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Danh sách đồ chơi mua";
-            // 
-            // gunaSeparator4
-            // 
-            this.gunaSeparator4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator4.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator4.Location = new System.Drawing.Point(89, 514);
-            this.gunaSeparator4.Name = "gunaSeparator4";
-            this.gunaSeparator4.Size = new System.Drawing.Size(405, 14);
-            this.gunaSeparator4.TabIndex = 9;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 509);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 23);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Chi tiết";
-            // 
-            // dtpNgayLapHD
-            // 
-            this.dtpNgayLapHD.BackColor = System.Drawing.Color.Transparent;
-            this.dtpNgayLapHD.BaseColor = System.Drawing.Color.White;
-            this.dtpNgayLapHD.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
-            this.dtpNgayLapHD.BorderSize = 1;
-            this.dtpNgayLapHD.CustomFormat = "dd/MM/yyyy";
-            this.dtpNgayLapHD.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtpNgayLapHD.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dtpNgayLapHD.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtpNgayLapHD.ForeColor = System.Drawing.Color.Black;
-            this.dtpNgayLapHD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayLapHD.Location = new System.Drawing.Point(197, 532);
-            this.dtpNgayLapHD.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpNgayLapHD.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpNgayLapHD.Name = "dtpNgayLapHD";
-            this.dtpNgayLapHD.OnHoverBaseColor = System.Drawing.Color.White;
-            this.dtpNgayLapHD.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dtpNgayLapHD.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dtpNgayLapHD.OnPressedColor = System.Drawing.Color.Black;
-            this.dtpNgayLapHD.Radius = 5;
-            this.dtpNgayLapHD.Size = new System.Drawing.Size(282, 35);
-            this.dtpNgayLapHD.TabIndex = 15;
-            this.dtpNgayLapHD.Text = "05/12/2021";
-            this.dtpNgayLapHD.Value = new System.DateTime(2021, 12, 5, 15, 48, 58, 327);
-            // 
-            // label7
-            // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(12, 540);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 23);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Ngày lập";
-            // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(10, 579);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(114, 23);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Tổng số tiền";
-            // 
-            // txtTongTien
-            // 
-            this.txtTongTien.BackColor = System.Drawing.Color.Transparent;
-            this.txtTongTien.BaseColor = System.Drawing.Color.White;
-            this.txtTongTien.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
-            this.txtTongTien.BorderSize = 1;
-            this.txtTongTien.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTongTien.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtTongTien.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.txtTongTien.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtTongTien.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTongTien.Location = new System.Drawing.Point(197, 573);
-            this.txtTongTien.Name = "txtTongTien";
-            this.txtTongTien.PasswordChar = '\0';
-            this.txtTongTien.Radius = 5;
-            this.txtTongTien.SelectedText = "";
-            this.txtTongTien.Size = new System.Drawing.Size(282, 33);
-            this.txtTongTien.TabIndex = 17;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(12, 619);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(82, 23);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Discount";
-            // 
-            // txtDiscount
-            // 
-            this.txtDiscount.BackColor = System.Drawing.Color.Transparent;
-            this.txtDiscount.BaseColor = System.Drawing.Color.White;
-            this.txtDiscount.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(223)))), ((int)(((byte)(231)))));
-            this.txtDiscount.BorderSize = 1;
-            this.txtDiscount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtDiscount.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtDiscount.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.txtDiscount.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtDiscount.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiscount.Location = new System.Drawing.Point(197, 612);
-            this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.PasswordChar = '\0';
-            this.txtDiscount.Radius = 5;
-            this.txtDiscount.SelectedText = "";
-            this.txtDiscount.Size = new System.Drawing.Size(282, 33);
-            this.txtDiscount.TabIndex = 19;
-            // 
-            // label10
-            // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(10, 686);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(112, 23);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Thành tiền";
-            // 
-            // txtThanhTien
-            // 
-            this.txtThanhTien.BackColor = System.Drawing.Color.Transparent;
-            this.txtThanhTien.BaseColor = System.Drawing.Color.White;
-            this.txtThanhTien.BorderColor = System.Drawing.Color.Red;
-            this.txtThanhTien.BorderSize = 1;
-            this.txtThanhTien.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtThanhTien.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtThanhTien.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.txtThanhTien.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtThanhTien.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThanhTien.Location = new System.Drawing.Point(197, 672);
-            this.txtThanhTien.Name = "txtThanhTien";
-            this.txtThanhTien.PasswordChar = '\0';
-            this.txtThanhTien.Radius = 5;
-            this.txtThanhTien.SelectedText = "";
-            this.txtThanhTien.Size = new System.Drawing.Size(282, 48);
-            this.txtThanhTien.TabIndex = 21;
-            // 
-            // gunaSeparator5
-            // 
-            this.gunaSeparator5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator5.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator5.Location = new System.Drawing.Point(7, 652);
-            this.gunaSeparator5.Name = "gunaSeparator5";
-            this.gunaSeparator5.Size = new System.Drawing.Size(487, 14);
-            this.gunaSeparator5.TabIndex = 22;
-            // 
-            // gunaSeparator6
-            // 
-            this.gunaSeparator6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaSeparator6.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator6.Location = new System.Drawing.Point(7, 747);
-            this.gunaSeparator6.Name = "gunaSeparator6";
-            this.gunaSeparator6.Size = new System.Drawing.Size(487, 14);
-            this.gunaSeparator6.TabIndex = 23;
-            // 
-            // btnXuatHoaDon
-            // 
-            this.btnXuatHoaDon.AnimationHoverSpeed = 0.07F;
-            this.btnXuatHoaDon.AnimationSpeed = 0.03F;
-            this.btnXuatHoaDon.BackColor = System.Drawing.Color.Transparent;
-            this.btnXuatHoaDon.BaseColor = System.Drawing.Color.White;
-            this.btnXuatHoaDon.BorderColor = System.Drawing.Color.Red;
-            this.btnXuatHoaDon.BorderSize = 3;
-            this.btnXuatHoaDon.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnXuatHoaDon.FocusedColor = System.Drawing.Color.Empty;
-            this.btnXuatHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnXuatHoaDon.ForeColor = System.Drawing.Color.Red;
-            this.btnXuatHoaDon.Image = null;
-            this.btnXuatHoaDon.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnXuatHoaDon.Location = new System.Drawing.Point(320, 767);
-            this.btnXuatHoaDon.Name = "btnXuatHoaDon";
-            this.btnXuatHoaDon.OnHoverBaseColor = System.Drawing.Color.Red;
-            this.btnXuatHoaDon.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnXuatHoaDon.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnXuatHoaDon.OnHoverImage = null;
-            this.btnXuatHoaDon.OnPressedColor = System.Drawing.Color.Black;
-            this.btnXuatHoaDon.Radius = 10;
-            this.btnXuatHoaDon.Size = new System.Drawing.Size(159, 50);
-            this.btnXuatHoaDon.TabIndex = 24;
-            this.btnXuatHoaDon.Text = "Xuất hóa đơn";
-            this.btnXuatHoaDon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // SellForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -564,6 +563,7 @@ namespace ToyStoreManagement
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SellForm";
             this.Text = "SellForm";
+            this.Load += new System.EventHandler(this.SellForm_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);

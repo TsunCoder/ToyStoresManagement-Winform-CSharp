@@ -18,6 +18,25 @@ namespace DataAccess
         public int GiaBan { get; set; }
         public int GiaNhap { get; set; }
         public string HinhAnh { get; set; }
+       
+        public Toy()
+        {
+
+        }
+
+        public Toy(int iD, string tendochoi, int iD_Loai, string dotuoi, string xuatxu, string thuonghieu, int soluong, int giaban, int gianhap, string hinhAnh)
+        {
+            Id = iD;
+            TenDoChoi = tendochoi;
+            ID_Loai = iD_Loai;
+            DoTuoi = dotuoi;
+            XuatXu = xuatxu;
+            ThuongHieu = thuonghieu;
+            SoLuong = soluong;
+            GiaBan = giaban;
+            GiaNhap = gianhap;
+            HinhAnh = hinhAnh;
+        }
 
     }
 }

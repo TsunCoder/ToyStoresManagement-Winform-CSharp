@@ -58,3 +58,4 @@ D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManageme
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.StatisticForm.resources
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.AssemblyReference.cache
 D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.csproj.SuggestedBindingRedirects.cache
+D:\Github\ToyStoresManagement-Winform-CSharp\ToyStoreManagement\ToyStoreManagement\obj\Debug\ToyStoreManagement.Custom.ToyDetails.resources
